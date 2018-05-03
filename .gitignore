@@ -88,3 +88,7 @@ ThirdParty/LibUsbDotNet/LibUsb.Common/bin/
 ThirdParty/LibUsbDotNet/LibUsb.Common/obj/
 ThirdParty/LibUsbDotNet/LibUsbDotNet/bin/
 ThirdParty/LibUsbDotNet/LibUsbDotNet/obj/
+ThirdParty/xsharp/xsharp/bin/
+ThirdParty/xsharp/xsharp/obj/
+ThirdParty/xsharp/windowtest/bin/
+ThirdParty/xsharp/windowtest/obj/
