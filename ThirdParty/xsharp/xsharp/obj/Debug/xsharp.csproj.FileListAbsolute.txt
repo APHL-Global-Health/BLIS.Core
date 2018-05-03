@@ -18,3 +18,7 @@ E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\xsharp\xsharp\bin\Deb
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\xsharp\xsharp\obj\Debug\xsharp.csproj.CoreCompileInputs.cache
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\xsharp\xsharp\obj\Debug\xsharp.dll
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\xsharp\xsharp\obj\Debug\xsharp.pdb
+E:\Projects\Repositories\Github\blis-Mono\ThirdParty\xsharp\xsharp\bin\Debug\xsharp.dll
+E:\Projects\Repositories\Github\blis-Mono\ThirdParty\xsharp\xsharp\bin\Debug\xsharp.pdb
+E:\Projects\Repositories\Github\blis-Mono\ThirdParty\xsharp\xsharp\obj\Debug\xsharp.dll
+E:\Projects\Repositories\Github\blis-Mono\ThirdParty\xsharp\xsharp\obj\Debug\xsharp.pdb

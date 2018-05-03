@@ -87,7 +87,7 @@ namespace blis.Core
         /// The message.
         /// </param>
         void Error(string message);
-
+		 
         /// <summary>
         /// The error.
         /// </summary>

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{84054FF4-9321-41E7-B377-AFEEC402BA22}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="blis.Core\Helpers\CefConfigurationExtension.cs">
+    <Files>
+      <File FileName="blis.Core\Helpers\CefConfigurationExtension.cs" Line="63" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.blis PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
