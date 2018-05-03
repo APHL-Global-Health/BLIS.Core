@@ -84,9 +84,9 @@ ThirdParty/v8dotnet/V8.NET-Proxy/bin/
 ThirdParty/v8dotnet/V8.NET-ProxyInterface/bin/
 ThirdParty/v8dotnet/V8.NET-ProxyInterface/obj/
 ThirdParty/v8dotnet/V8.NET-ProxyInterface/obj_3.5/
-ThirdParty/v8dotnet/V8.NET-SharedTypes/bin/
-ThirdParty/v8dotnet/V8.NET-SharedTypes/obj/
-ThirdParty/v8dotnet/V8.NET-SharedTypes/obj_3.5/
+ThirdParty/v8dotnet/V8.Net-SharedTypes/bin/
+ThirdParty/v8dotnet/V8.Net-SharedTypes/obj/
+ThirdParty/v8dotnet/V8.Net-SharedTypes/obj_3.5/
 ThirdParty/LibUsbDotNet/LibUsb.Common/bin/
 ThirdParty/LibUsbDotNet/LibUsb.Common/obj/
 ThirdParty/LibUsbDotNet/LibUsbDotNet/bin/
