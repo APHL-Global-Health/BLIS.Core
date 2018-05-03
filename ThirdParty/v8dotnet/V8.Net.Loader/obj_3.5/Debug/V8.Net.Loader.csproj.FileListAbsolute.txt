@@ -25,10 +25,3 @@ E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loade
 E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csproj.CoreCompileInputs.cache
 E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.dll
 E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.pdb
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csprojResolveAssemblyReference.cache
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csproj.CoreCompileInputs.cache
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.XML
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.dll
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.pdb
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.dll
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.pdb

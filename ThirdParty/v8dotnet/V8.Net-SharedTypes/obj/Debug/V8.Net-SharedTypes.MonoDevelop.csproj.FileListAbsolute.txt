@@ -1,6 +1,0 @@
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/bin/Debug/V8.Net.SharedTypes.dll
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/bin/Debug/V8.Net.SharedTypes.pdb
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/obj/Debug/V8.Net-SharedTypes.MonoDevelop.csproj.CoreCompileInputs.cache
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/obj/Debug/V8.Net.SharedTypes.dll
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/obj/Debug/V8.Net.SharedTypes.pdb
-/home/fredrick/Projects/BLIS/ThirdParty/v8dotnet/V8.Net-SharedTypes/obj/Debug/V8.Net-SharedTypes.MonoDevelop.csprojResolveAssemblyReference.cache
