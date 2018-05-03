@@ -83,16 +83,16 @@ namespace blis
 
                 var config = CefConfiguration
                             .Create()
-                            .WithHostTitle("eplug")
+                            .WithHostTitle("BLIS")
                             .WithHostIconFile("logo.ico")
                             .WithAppArgs(args)
                             .WithHostSize(1024, 600) //1440x900
-                            .WithLogFile("logs\\eplug.cef_new.log")
-                            .WithStartUrl($"http://{configuration.Application}//index.htm")
+                            .WithLogFile("logs\\blis.cef_new.log")
+                            .WithStartUrl($"http://{configuration.Application}/index.htm")
                             .WithLogSeverity(LogSeverity.Error)
-                            .UseDefaultLogger("logs\\eplug_new.log")
+                            .UseDefaultLogger("logs\\blis_new.log")
                             .UseDefaultResourceSchemeHandler("http", string.Empty)
-                            .UseDefaultHttpSchemeHandler("http", "eplug.com")
+                            .UseDefaultHttpSchemeHandler("http", "blis.com")
                             .RegisterSchemeHandler("local", string.Empty, new CustomResourceHandler())
                             .WithCustomSetting(CefSettingKeys.CachePath, Path.Combine(path, "Logs", "Cache"))
                             .WithCustomSetting(CefSettingKeys.ResourcesDirPath, Path.GetDirectoryName(new Uri(Assembly.GetEntryAssembly().CodeBase).LocalPath))

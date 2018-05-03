@@ -1,1 +1,1 @@
-# ePlug-Mono
+# Basic Laboratory Information System
