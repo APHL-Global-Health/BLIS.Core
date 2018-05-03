@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>V8.Net.Loader</RootNamespace>
     <AssemblyName>V8.Net.Loader</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>obj_3.5\</BaseIntermediateOutputPath>
     <TargetFrameworkProfile />
@@ -51,6 +51,7 @@
     <DefineConstants Condition=" '$(TargetFrameworkVersion)' == 'v1.1' ">$(DefineConstants);V1_1</DefineConstants>
     <DocumentationFile>..\bin\Release\V8.Net.Loader.XML</DocumentationFile>
     <NoWarn>1591,1592,1573,1571,1570,1572</NoWarn>
+    <LangVersion>4</LangVersion>
   </PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,6 +65,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <ConsolePause>false</ConsolePause>
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
+    <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <DebugType>full</DebugType>
@@ -75,6 +77,7 @@
     <PlatformTarget>x64</PlatformTarget>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
+    <LangVersion>4</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,9 +88,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\V8.Net-SharedTypes\V8.Net-SharedTypes.csproj">
-      <Project>{ef90724b-3893-4acf-bfee-88532485b11a}</Project>
-      <Name>V8.Net-SharedTypes</Name>
+    <ProjectReference Include="..\V8.Net-SharedTypes\V8.Net-SharedTypes.MonoDevelop.csproj">
+      <Project>{2155327D-386A-4F80-81FB-918A4442C834}</Project>
+      <Name>V8.Net-SharedTypes.MonoDevelop</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
