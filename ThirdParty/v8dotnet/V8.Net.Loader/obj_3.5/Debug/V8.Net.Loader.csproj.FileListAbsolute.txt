@@ -18,6 +18,7 @@ E:/Projects/Testing/v8dotnet-new/Source/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loade
 /home/fredrick/Projects/ePlug-Mono/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.dll
 /home/fredrick/Projects/ePlug-Mono/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.pdb
 /home/fredrick/Projects/ePlug-Mono/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\v8dotnet\bin\Debug\V8.Net.Loader.XML
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\v8dotnet\bin\Debug\V8.Net.Loader.dll
 E:\Projects\Repositories\Github\ePlug-Mono-aphl\ThirdParty\v8dotnet\bin\Debug\V8.Net.Loader.pdb
@@ -31,3 +32,12 @@ E:\Projects\Repositories\Github\blis-Mono\ThirdParty\v8dotnet\bin\Debug\V8.Net.L
 E:\Projects\Repositories\Github\blis-Mono\ThirdParty\v8dotnet\V8.Net.Loader\obj_3.5\Debug\V8.Net.Loader.dll
 E:\Projects\Repositories\Github\blis-Mono\ThirdParty\v8dotnet\V8.Net.Loader\obj_3.5\Debug\V8.Net.Loader.pdb
 E:\Projects\Repositories\Github\blis-Mono\ThirdParty\v8dotnet\V8.Net.Loader\obj_3.5\Debug\V8.Net.Loader.csprojResolveAssemblyReference.cache
+=======
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.XML
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.dll
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/bin/Debug/V8.Net.Loader.pdb
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csprojResolveAssemblyReference.cache
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.csproj.CoreCompileInputs.cache
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.dll
+E:/Projects/Repositories/Github/ePlug-Mono-aphl/ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/Debug/V8.Net.Loader.pdb
+>>>>>>> e160a205ce907b0bd0a1683fbbfd1a4fa3807d87
