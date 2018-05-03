@@ -77,6 +77,9 @@ ThirdParty/v8dotnet/bin/
 ThirdParty/v8dotnet/V8.Net/bin/
 ThirdParty/v8dotnet/V8.Net/obj/
 ThirdParty/v8dotnet/V8.Net/obj_3.5/
+ThirdParty/v8dotnet/V8.Net.Loader/bin/
+ThirdParty/v8dotnet/V8.Net.Loader/obj/
+ThirdParty/v8dotnet/V8.Net.Loader/obj_3.5/
 ThirdParty/v8dotnet/V8.NET-Proxy/bin/
 ThirdParty/v8dotnet/V8.NET-ProxyInterface/bin/
 ThirdParty/v8dotnet/V8.NET-ProxyInterface/obj/
