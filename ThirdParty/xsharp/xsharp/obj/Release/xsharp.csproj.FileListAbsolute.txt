@@ -1,0 +1,3 @@
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\xsharp\xsharp\bin\Release\xsharp.dll
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\xsharp\xsharp\obj\Release\xsharp.csproj.CoreCompileInputs.cache
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\xsharp\xsharp\obj\Release\xsharp.dll

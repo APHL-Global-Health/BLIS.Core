@@ -1,0 +1,88 @@
+﻿// --------------------------------------------------------------------------------------------------------------------
+//<license>
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+// 
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+// </license>
+// <note>
+// blis project is licensed under MIT License. CefGlue may have additional licensing.
+// This is a port from CefGlue.WindowsForms sample of CefGlue. Mostly provided as-is. 
+// For more info: https://bitbucket.org/xilium/xilium.cefglue/wiki/Home
+// </note>
+// --------------------------------------------------------------------------------------------------------------------
+
+using System.IO;
+using Xilium.CefGlue;
+
+namespace blis.Core.Handlers
+{
+    public class PingHandler : CefResourceHandler
+    {
+        #region Constructor
+        public PingHandler()
+        {
+        }
+        #endregion
+
+        #region ProcessRequest
+        protected override bool ProcessRequest(CefRequest request, CefCallback callback)
+        {
+            callback.Continue();
+            return true;
+        }
+        #endregion
+
+        #region GetResponseHeaders
+        protected override void GetResponseHeaders(CefResponse response, out long responseLength, out string redirectUrl)
+        {
+            response.Status = 200;
+            response.StatusText = "OK";
+            responseLength = 0;
+            redirectUrl = null;
+        }
+        #endregion
+
+        #region ReadResponse
+        protected override bool ReadResponse(Stream response, int bytesToRead, out int bytesRead, CefCallback callback)
+        {
+            bytesRead = 0;
+            callback.Dispose();
+            return true;
+        }
+        #endregion
+
+        #region CanGetCookie
+        protected override bool CanGetCookie(CefCookie cookie)
+        {
+            return false;
+        }
+        #endregion
+
+        #region CanSetCookie
+        protected override bool CanSetCookie(CefCookie cookie)
+        {
+            return false;
+        }
+        #endregion
+
+        #region Cancel
+        protected override void Cancel()
+        {
+        }
+        #endregion
+    }
+}

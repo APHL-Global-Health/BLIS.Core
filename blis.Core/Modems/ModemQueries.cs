@@ -1,0 +1,42 @@
+﻿namespace ePlug.Core.Modems
+{
+    public enum ModemQueries
+    {
+        Custom,
+        GetBatteryCharge,
+        GetCurrentCharacterSet,
+        GetCurrentOperator,
+        GetMessageMemoryStatus,
+        GetMessageStorages,
+        GetOperatorSelectionMode,
+        GetPhonebook,
+        GetPhonebookMemoryStatus,
+        GetPhonebookStorages,
+        GetPhonebookWithStorage,
+        GetPinStatus,
+        GetProtocol,
+        GetSignalQuality,
+        GetSmsBatchModeSetting,
+        GetSmscAddress,
+        GetSubscriberNumbers,
+        GetSupportedCharacterSets,
+        SelectCharacterSet,
+        SetSmscAddress,
+        DeleteAllPhonebookEntries,
+        DeleteMessages,
+        DeletePhonebookEntry,
+        EnterPin,
+        FindPhonebookEntries,
+        FindPhonebookEntriesWithStorage,
+        IdentifyDevice,
+        ListOperators,
+        ReadMessage,
+        ReadMessages,
+        ReadRawMessages,
+        SendMessages,
+        WriteRawMessage,
+        WriteRawMessageWithoutStatus,
+        RequestUSSD,
+        CancelUSSD
+    }
+}

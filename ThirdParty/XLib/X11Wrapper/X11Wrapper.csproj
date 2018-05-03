@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <ProjectGuid>{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>X11Wrapper</RootNamespace>
+    <AssemblyName>X11Wrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="X11Contracts.cs" />
+    <Compile Include="X11Event.cs" />
+    <Compile Include="X11lib.cs" />
+    <Compile Include="X11Utils.cs" />
+    <Compile Include="X11ColorNames.cs" />
+    <Compile Include="Convenience\X11Resources.cs" />
+    <Compile Include="Convenience\AlternativeBase64.cs" />
+    <Compile Include="Convenience\X11Graphic.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Convenience\X11Color.cs" />
+    <Compile Include="Xpmlib.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\XawNative\XawNative.cproj">
+      <Project>{AA2918F5-6E1C-4683-B49D-11CEF36C7B8F}</Project>
+      <Name>XawNative</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Convenience\attention16.bmp" />
+    <None Include="Convenience\attention32.bmp" />
+    <None Include="Convenience\attention48.bmp" />
+    <None Include="Convenience\error16.bmp" />
+    <None Include="Convenience\error32.bmp" />
+    <None Include="Convenience\info16.bmp" />
+    <None Include="Convenience\info32.bmp" />
+    <None Include="Convenience\quest16.bmp" />
+    <None Include="Convenience\quest32.bmp" />
+    <None Include="Convenience\radio_off.bmp" />
+    <None Include="Convenience\radio_on.bmp" />
+    <None Include="Convenience\toggle_off.bmp" />
+    <None Include="Convenience\toggle_on.bmp" />
+    <None Include="Convenience\warn16.bmp" />
+    <None Include="Convenience\warn32.bmp" />
+    <None Include="Convenience\cancel16.bmp" />
+    <None Include="Convenience\cancel32.bmp" />
+    <None Include="Convenience\cancel48.bmp" />
+    <None Include="Convenience\error48.bmp" />
+    <None Include="Convenience\info48.bmp" />
+    <None Include="Convenience\quest48.bmp" />
+    <None Include="Convenience\warn48.bmp" />
+    <None Include="Convenience\ok16.bmp" />
+  </ItemGroup>
+</Project>

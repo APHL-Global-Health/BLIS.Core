@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C59E6863-5C14-4E32-B170-90C838785485}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>X11</RootNamespace>
+    <AssemblyName>X11</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <StartupObject>X11.X11Window</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="X11Window.cs" />
+    <Compile Include="Xrw\XrwTheme.cs" />
+    <Compile Include="Utils\ApplicationFramework.cs" />
+    <Compile Include="Xrw\XrwResources.cs" />
+    <Compile Include="Xrw\Events\XrwExposeEvent.cs" />
+    <Compile Include="Xrw\Events\XrwFocusChangeEvent.cs" />
+    <Compile Include="Xrw\Events\XrwCrossingEvent.cs" />
+    <Compile Include="Xrw\Events\XrwClientMessageEvent.cs" />
+    <Compile Include="Xrw\Events\XrwButtonEvent.cs" />
+    <Compile Include="Xrw\Events\XrwKeyEvent.cs" />
+    <Compile Include="Xrw\Events\XrwMotionEvent.cs" />
+    <Compile Include="Xrw\Events\XrwConfigureEvent.cs" />
+    <Compile Include="Xrw\Shells\XrwShell.cs" />
+    <Compile Include="Xrw\Shells\XrwOverrideShell.cs" />
+    <Compile Include="Xrw\Shells\XrwWmShell.cs" />
+    <Compile Include="Xrw\Shells\XrwTransientShell.cs" />
+    <Compile Include="Xrw\MenuWidgets\XrwSimpleMenu.cs" />
+    <Compile Include="Xrw\MenuWidgets\XrwSme.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwObject.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwRectObj.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwCore.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwVisibleRectObj.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwSimple.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwConstraint.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwCommand.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwLabel.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwPanel.cs" />
+    <Compile Include="Xrw\MenuWidgets\XrwMenuButton.cs" />
+    <Compile Include="Xrw\CompoundWidgets\XrwMessageBox.cs" />
+    <Compile Include="Xrw\Shells\XrwApplicationShell.cs" />
+    <Compile Include="Xrw\Shells\XrwDialogShell.cs" />
+    <Compile Include="Xrw\XrwTypes.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwRadio.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwBox.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwRadioBox.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwNotebook.cs" />
+    <Compile Include="Xrw\BaseWidgets\XrwComposite.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwStack.cs" />
+    <Compile Include="Xrw\SimpleWidgets\XrwToggle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Xrw\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Xrw\Events\" />
+    <Folder Include="Xrw\Shells\" />
+    <Folder Include="Xrw\MenuWidgets\" />
+    <Folder Include="Xrw\BaseWidgets\" />
+    <Folder Include="Xrw\SimpleWidgets\" />
+    <Folder Include="Xrw\CompoundWidgets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\X11Wrapper\X11Wrapper.csproj">
+      <Project>{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}</Project>
+      <Name>X11Wrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="attention.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

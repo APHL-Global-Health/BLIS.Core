@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="38f38ec8-9c20-4880-873b-92da9c67d7ca" Title="ClearScript Library Reference" Url="html/R_Project_Reference.htm">
+    <HelpTOCNode Id="a535d44d-029f-487c-bb0d-2f7633986ef3" Title="Microsoft.ClearScript" Url="html/N_Microsoft_ClearScript.htm">
+      <HelpTOCNode Title="ContinuationCallback Delegate" Url="html/T_Microsoft_ClearScript_ContinuationCallback.htm" />
+      <HelpTOCNode Id="fbc6d077-565c-4440-ab82-2f3977776203" Title="DefaultScriptUsageAttribute Class" Url="html/T_Microsoft_ClearScript_DefaultScriptUsageAttribute.htm">
+        <HelpTOCNode Id="33eac7f4-b0ef-4b16-a71f-cd36036b9a74" Title="DefaultScriptUsageAttribute Constructor " Url="html/Overload_Microsoft_ClearScript_DefaultScriptUsageAttribute__ctor.htm">
+          <HelpTOCNode Title="DefaultScriptUsageAttribute Constructor " Url="html/M_Microsoft_ClearScript_DefaultScriptUsageAttribute__ctor.htm" />
+          <HelpTOCNode Title="DefaultScriptUsageAttribute Constructor (ScriptAccess)" Url="html/M_Microsoft_ClearScript_DefaultScriptUsageAttribute__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5d34be8e-2d08-444f-9f88-b7a0ecb091ea" Title="DefaultScriptUsageAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_DefaultScriptUsageAttribute.htm">
+          <HelpTOCNode Title="Access Property " Url="html/P_Microsoft_ClearScript_DefaultScriptUsageAttribute_Access.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DefaultScriptUsageAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_DefaultScriptUsageAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a08c459-e691-4ae3-94be-3127f7b30b44" Title="EventConnection(T) Class" Url="html/T_Microsoft_ClearScript_EventConnection_1.htm">
+        <HelpTOCNode Id="44773887-ace6-4177-926b-0763f531a026" Title="EventConnection(T) Methods" Url="html/Methods_T_Microsoft_ClearScript_EventConnection_1.htm">
+          <HelpTOCNode Title="disconnect Method " Url="html/M_Microsoft_ClearScript_EventConnection_1_disconnect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3cd28356-dfa4-4f79-972f-85f70b62de2c" Title="EventSource(T) Class" Url="html/T_Microsoft_ClearScript_EventSource_1.htm">
+        <HelpTOCNode Id="420be8c9-4865-4586-b840-f94e04348fda" Title="EventSource(T) Methods" Url="html/Methods_T_Microsoft_ClearScript_EventSource_1.htm">
+          <HelpTOCNode Title="connect Method " Url="html/M_Microsoft_ClearScript_EventSource_1_connect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2ed735bf-f45a-4f30-8065-9ead4925b351" Title="ExtendedHostFunctions Class" Url="html/T_Microsoft_ClearScript_ExtendedHostFunctions.htm">
+        <HelpTOCNode Title="ExtendedHostFunctions Constructor " Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions__ctor.htm" />
+        <HelpTOCNode Id="d6bd4e3a-e9fc-4c42-b986-465fcc899d2c" Title="ExtendedHostFunctions Methods" Url="html/Methods_T_Microsoft_ClearScript_ExtendedHostFunctions.htm">
+          <HelpTOCNode Title="arrType(T) Method " Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_arrType__1.htm" />
+          <HelpTOCNode Title="comType Method " Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_comType.htm" />
+          <HelpTOCNode Id="39682380-98c9-4142-b21f-8850832bbe6b" Title="lib Method " Url="html/Overload_Microsoft_ClearScript_ExtendedHostFunctions_lib.htm">
+            <HelpTOCNode Title="lib Method (String[])" Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_lib_1.htm" />
+            <HelpTOCNode Title="lib Method (HostTypeCollection, String[])" Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_lib.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="newComObj Method " Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_newComObj.htm" />
+          <HelpTOCNode Id="7846735b-8640-4f8f-994f-1e70793d31f1" Title="type Method " Url="html/Overload_Microsoft_ClearScript_ExtendedHostFunctions_type.htm">
+            <HelpTOCNode Title="type Method (Type)" Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_type_2.htm" />
+            <HelpTOCNode Title="type Method (String, Object[])" Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_type.htm" />
+            <HelpTOCNode Title="type Method (String, String, Object[])" Url="html/M_Microsoft_ClearScript_ExtendedHostFunctions_type_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ecc0918-921d-4dff-80d1-7bf820db90f2" Title="HostFunctions Class" Url="html/T_Microsoft_ClearScript_HostFunctions.htm">
+        <HelpTOCNode Title="HostFunctions Constructor " Url="html/M_Microsoft_ClearScript_HostFunctions__ctor.htm" />
+        <HelpTOCNode Id="23e312ab-cede-476f-aa78-e2dcccec8d35" Title="HostFunctions Methods" Url="html/Methods_T_Microsoft_ClearScript_HostFunctions.htm">
+          <HelpTOCNode Title="asType(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_asType__1.htm" />
+          <HelpTOCNode Title="cast(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_cast__1.htm" />
+          <HelpTOCNode Title="del(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_del__1.htm" />
+          <HelpTOCNode Title="flags(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_flags__1.htm" />
+          <HelpTOCNode Id="78ada4c0-f3ee-4c32-8910-d62a1387efbc" Title="func Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_func.htm">
+            <HelpTOCNode Title="func(T) Method (Int32, Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_func__1.htm" />
+            <HelpTOCNode Title="func Method (Int32, Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_func.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getElement Method " Url="html/M_Microsoft_ClearScript_HostFunctions_getElement.htm" />
+          <HelpTOCNode Id="2a44b2e0-9bfb-47f6-97c0-59fed56d5da5" Title="getProperty Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_getProperty.htm">
+            <HelpTOCNode Title="getProperty Method (IDynamicMetaObjectProvider, String)" Url="html/M_Microsoft_ClearScript_HostFunctions_getProperty_1.htm" />
+            <HelpTOCNode Title="getProperty Method (IPropertyBag, String)" Url="html/M_Microsoft_ClearScript_HostFunctions_getProperty.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="isNull Method " Url="html/M_Microsoft_ClearScript_HostFunctions_isNull.htm" />
+          <HelpTOCNode Title="isType(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_isType__1.htm" />
+          <HelpTOCNode Id="715f2558-f548-4c9e-a9ab-72e257b9dadf" Title="isTypeObj Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_isTypeObj.htm">
+            <HelpTOCNode Title="isTypeObj(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_isTypeObj__1.htm" />
+            <HelpTOCNode Title="isTypeObj Method (Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_isTypeObj.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b424d833-d226-4763-a2e8-19478c8d675f" Title="newArr Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_newArr.htm">
+            <HelpTOCNode Title="newArr(T) Method (Int32[])" Url="html/M_Microsoft_ClearScript_HostFunctions_newArr__1.htm" />
+            <HelpTOCNode Title="newArr Method (Int32[])" Url="html/M_Microsoft_ClearScript_HostFunctions_newArr.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="91679c18-ca93-4c5b-ba90-16a4025cced0" Title="newObj Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_newObj.htm">
+            <HelpTOCNode Title="newObj Method " Url="html/M_Microsoft_ClearScript_HostFunctions_newObj.htm" />
+            <HelpTOCNode Title="newObj(T) Method (Object[])" Url="html/M_Microsoft_ClearScript_HostFunctions_newObj__1.htm" />
+            <HelpTOCNode Title="newObj Method (IDynamicMetaObjectProvider, Object[])" Url="html/M_Microsoft_ClearScript_HostFunctions_newObj_1.htm" />
+            <HelpTOCNode Title="newObj Method (Object, Object[])" Url="html/M_Microsoft_ClearScript_HostFunctions_newObj_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="newVar(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_newVar__1.htm" />
+          <HelpTOCNode Title="proc Method " Url="html/M_Microsoft_ClearScript_HostFunctions_proc.htm" />
+          <HelpTOCNode Title="removeElement Method " Url="html/M_Microsoft_ClearScript_HostFunctions_removeElement.htm" />
+          <HelpTOCNode Id="ee1f5e37-96a5-4a2f-896b-820be2fb29f5" Title="removeProperty Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_removeProperty.htm">
+            <HelpTOCNode Title="removeProperty Method (IDynamicMetaObjectProvider, String)" Url="html/M_Microsoft_ClearScript_HostFunctions_removeProperty_1.htm" />
+            <HelpTOCNode Title="removeProperty Method (IPropertyBag, String)" Url="html/M_Microsoft_ClearScript_HostFunctions_removeProperty.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="setElement Method " Url="html/M_Microsoft_ClearScript_HostFunctions_setElement.htm" />
+          <HelpTOCNode Id="b1bfeabf-5a27-49ae-b8dd-3292f48ce214" Title="setProperty Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_setProperty.htm">
+            <HelpTOCNode Title="setProperty Method (IDynamicMetaObjectProvider, String, Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_setProperty_1.htm" />
+            <HelpTOCNode Title="setProperty Method (IPropertyBag, String, Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_setProperty.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="toByte Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toByte.htm" />
+          <HelpTOCNode Title="toChar Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toChar.htm" />
+          <HelpTOCNode Title="toDecimal Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toDecimal.htm" />
+          <HelpTOCNode Title="toDouble Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toDouble.htm" />
+          <HelpTOCNode Title="toInt16 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toInt16.htm" />
+          <HelpTOCNode Title="toInt32 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toInt32.htm" />
+          <HelpTOCNode Title="toInt64 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toInt64.htm" />
+          <HelpTOCNode Title="toSByte Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toSByte.htm" />
+          <HelpTOCNode Title="toSingle Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toSingle.htm" />
+          <HelpTOCNode Title="toStaticType Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toStaticType.htm" />
+          <HelpTOCNode Title="toUInt16 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toUInt16.htm" />
+          <HelpTOCNode Title="toUInt32 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toUInt32.htm" />
+          <HelpTOCNode Title="toUInt64 Method " Url="html/M_Microsoft_ClearScript_HostFunctions_toUInt64.htm" />
+          <HelpTOCNode Title="tryCatch Method " Url="html/M_Microsoft_ClearScript_HostFunctions_tryCatch.htm" />
+          <HelpTOCNode Id="68b2cbe2-9282-4a49-abe3-bd2d6aa96fb8" Title="typeOf Method " Url="html/Overload_Microsoft_ClearScript_HostFunctions_typeOf.htm">
+            <HelpTOCNode Title="typeOf(T) Method " Url="html/M_Microsoft_ClearScript_HostFunctions_typeOf__1.htm" />
+            <HelpTOCNode Title="typeOf Method (Object)" Url="html/M_Microsoft_ClearScript_HostFunctions_typeOf.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="HostItemFlags Enumeration" Url="html/T_Microsoft_ClearScript_HostItemFlags.htm" />
+      <HelpTOCNode Id="0d157676-1a61-494c-b656-99cfc1ca30ac" Title="HostTypeCollection Class" Url="html/T_Microsoft_ClearScript_HostTypeCollection.htm">
+        <HelpTOCNode Id="d3c579ab-4292-4db6-b17d-684428b7d8e1" Title="HostTypeCollection Constructor " Url="html/Overload_Microsoft_ClearScript_HostTypeCollection__ctor.htm">
+          <HelpTOCNode Title="HostTypeCollection Constructor " Url="html/M_Microsoft_ClearScript_HostTypeCollection__ctor.htm" />
+          <HelpTOCNode Title="HostTypeCollection Constructor (Assembly[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection__ctor_3.htm" />
+          <HelpTOCNode Title="HostTypeCollection Constructor (String[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection__ctor_4.htm" />
+          <HelpTOCNode Title="HostTypeCollection Constructor (Predicate(Type), Assembly[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection__ctor_1.htm" />
+          <HelpTOCNode Title="HostTypeCollection Constructor (Predicate(Type), String[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="HostTypeCollection Properties" Url="html/Properties_T_Microsoft_ClearScript_HostTypeCollection.htm" />
+        <HelpTOCNode Id="ada838e8-e330-4428-ab4f-23330ecc4435" Title="HostTypeCollection Methods" Url="html/Methods_T_Microsoft_ClearScript_HostTypeCollection.htm">
+          <HelpTOCNode Id="a875bb09-d15d-4489-b87b-cb649147ca58" Title="AddAssembly Method " Url="html/Overload_Microsoft_ClearScript_HostTypeCollection_AddAssembly.htm">
+            <HelpTOCNode Title="AddAssembly Method (Assembly)" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddAssembly.htm" />
+            <HelpTOCNode Title="AddAssembly Method (String)" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddAssembly_2.htm" />
+            <HelpTOCNode Title="AddAssembly Method (Assembly, Predicate(Type))" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddAssembly_1.htm" />
+            <HelpTOCNode Title="AddAssembly Method (String, Predicate(Type))" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddAssembly_3.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="6925dc37-04f4-4ac0-af76-bc3294ff422f" Title="AddType Method " Url="html/Overload_Microsoft_ClearScript_HostTypeCollection_AddType.htm">
+            <HelpTOCNode Title="AddType Method (Type)" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddType_2.htm" />
+            <HelpTOCNode Title="AddType Method (String, Type[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddType_1.htm" />
+            <HelpTOCNode Title="AddType Method (String, String, Type[])" Url="html/M_Microsoft_ClearScript_HostTypeCollection_AddType.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetNamespaceNode Method " Url="html/M_Microsoft_ClearScript_HostTypeCollection_GetNamespaceNode.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="HostTypeCollection Events" Url="html/Events_T_Microsoft_ClearScript_HostTypeCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d13f7c33-2dd1-40a8-bf14-d817e3d480f0" Title="ImmutableValueAttribute Class" Url="html/T_Microsoft_ClearScript_ImmutableValueAttribute.htm">
+        <HelpTOCNode Title="ImmutableValueAttribute Constructor " Url="html/M_Microsoft_ClearScript_ImmutableValueAttribute__ctor.htm" />
+        <HelpTOCNode Title="ImmutableValueAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_ImmutableValueAttribute.htm" />
+        <HelpTOCNode Title="ImmutableValueAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_ImmutableValueAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eb8139c5-6345-471f-b7c8-b6f5b5fa2c3f" Title="IPropertyBag Interface" Url="html/T_Microsoft_ClearScript_IPropertyBag.htm">
+        <HelpTOCNode Title="IPropertyBag Properties" Url="html/Properties_T_Microsoft_ClearScript_IPropertyBag.htm" />
+        <HelpTOCNode Title="IPropertyBag Methods" Url="html/Methods_T_Microsoft_ClearScript_IPropertyBag.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="79f3c70e-a91b-44f9-9980-54992ac4e8d2" Title="IScriptableObject Interface" Url="html/T_Microsoft_ClearScript_IScriptableObject.htm">
+        <HelpTOCNode Id="1548e94b-6ed5-430a-ba37-def5faf032c4" Title="IScriptableObject Methods" Url="html/Methods_T_Microsoft_ClearScript_IScriptableObject.htm">
+          <HelpTOCNode Title="OnExposedToScriptCode Method " Url="html/M_Microsoft_ClearScript_IScriptableObject_OnExposedToScriptCode.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c78c62fd-9569-4cc0-b7db-46d976971082" Title="IScriptEngineException Interface" Url="html/T_Microsoft_ClearScript_IScriptEngineException.htm">
+        <HelpTOCNode Id="a448e86f-02b0-4e83-a572-142896659936" Title="IScriptEngineException Properties" Url="html/Properties_T_Microsoft_ClearScript_IScriptEngineException.htm">
+          <HelpTOCNode Title="EngineName Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_EngineName.htm" />
+          <HelpTOCNode Title="ErrorDetails Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_ErrorDetails.htm" />
+          <HelpTOCNode Title="ExecutionStarted Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_ExecutionStarted.htm" />
+          <HelpTOCNode Title="HResult Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_HResult.htm" />
+          <HelpTOCNode Title="InnerException Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_InnerException.htm" />
+          <HelpTOCNode Title="IsFatal Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_IsFatal.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_Microsoft_ClearScript_IScriptEngineException_Message.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="61203cd1-9a9e-48be-81f3-a48888f84e34" Title="NoDefaultScriptAccessAttribute Class" Url="html/T_Microsoft_ClearScript_NoDefaultScriptAccessAttribute.htm">
+        <HelpTOCNode Title="NoDefaultScriptAccessAttribute Constructor " Url="html/M_Microsoft_ClearScript_NoDefaultScriptAccessAttribute__ctor.htm" />
+        <HelpTOCNode Title="NoDefaultScriptAccessAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_NoDefaultScriptAccessAttribute.htm" />
+        <HelpTOCNode Title="NoDefaultScriptAccessAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_NoDefaultScriptAccessAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eaeffdb1-136a-480a-b6c7-e16a53502e48" Title="NoScriptAccessAttribute Class" Url="html/T_Microsoft_ClearScript_NoScriptAccessAttribute.htm">
+        <HelpTOCNode Title="NoScriptAccessAttribute Constructor " Url="html/M_Microsoft_ClearScript_NoScriptAccessAttribute__ctor.htm" />
+        <HelpTOCNode Title="NoScriptAccessAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_NoScriptAccessAttribute.htm" />
+        <HelpTOCNode Title="NoScriptAccessAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_NoScriptAccessAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="75359043-33ab-4ec1-ad48-7b368ad517a3" Title="PropertyBag Class" Url="html/T_Microsoft_ClearScript_PropertyBag.htm">
+        <HelpTOCNode Id="05493478-d2dd-4ec4-bb1e-ee9eedf50bb4" Title="PropertyBag Constructor " Url="html/Overload_Microsoft_ClearScript_PropertyBag__ctor.htm">
+          <HelpTOCNode Title="PropertyBag Constructor " Url="html/M_Microsoft_ClearScript_PropertyBag__ctor.htm" />
+          <HelpTOCNode Title="PropertyBag Constructor (Boolean)" Url="html/M_Microsoft_ClearScript_PropertyBag__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="05b8d505-36b8-4dd6-8c30-0ac2c085f1b9" Title="PropertyBag Properties" Url="html/Properties_T_Microsoft_ClearScript_PropertyBag.htm">
+          <HelpTOCNode Title="Item Property " Url="html/P_Microsoft_ClearScript_PropertyBag_Item.htm" />
+          <HelpTOCNode Title="Keys Property " Url="html/P_Microsoft_ClearScript_PropertyBag_Keys.htm" />
+          <HelpTOCNode Title="Values Property " Url="html/P_Microsoft_ClearScript_PropertyBag_Values.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="85555c57-1bf6-448a-9375-fb73c5e2b987" Title="PropertyBag Methods" Url="html/Methods_T_Microsoft_ClearScript_PropertyBag.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Microsoft_ClearScript_PropertyBag_Add.htm" />
+          <HelpTOCNode Title="ClearNoCheck Method " Url="html/M_Microsoft_ClearScript_PropertyBag_ClearNoCheck.htm" />
+          <HelpTOCNode Title="ContainsKey Method " Url="html/M_Microsoft_ClearScript_PropertyBag_ContainsKey.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Microsoft_ClearScript_PropertyBag_Remove.htm" />
+          <HelpTOCNode Title="RemovePropertyNoCheck Method " Url="html/M_Microsoft_ClearScript_PropertyBag_RemovePropertyNoCheck.htm" />
+          <HelpTOCNode Title="SetPropertyNoCheck Method " Url="html/M_Microsoft_ClearScript_PropertyBag_SetPropertyNoCheck.htm" />
+          <HelpTOCNode Title="TryGetValue Method " Url="html/M_Microsoft_ClearScript_PropertyBag_TryGetValue.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="183c4f4f-e95e-484a-a037-5b09ca2c2a8f" Title="PropertyBag Events" Url="html/Events_T_Microsoft_ClearScript_PropertyBag.htm">
+          <HelpTOCNode Title="PropertyChanged Event" Url="html/E_Microsoft_ClearScript_PropertyBag_PropertyChanged.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ScriptAccess Enumeration" Url="html/T_Microsoft_ClearScript_ScriptAccess.htm" />
+      <HelpTOCNode Id="ef199b1a-5831-463c-85c4-3b482d7481db" Title="ScriptEngine Class" Url="html/T_Microsoft_ClearScript_ScriptEngine.htm">
+        <HelpTOCNode Title="ScriptEngine Constructor " Url="html/M_Microsoft_ClearScript_ScriptEngine__ctor.htm" />
+        <HelpTOCNode Id="9108148b-02f4-4341-95c0-3e7bd7b85370" Title="ScriptEngine Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptEngine.htm">
+          <HelpTOCNode Title="AccessContext Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_AccessContext.htm" />
+          <HelpTOCNode Title="AllowReflection Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_AllowReflection.htm" />
+          <HelpTOCNode Title="ContinuationCallback Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_ContinuationCallback.htm" />
+          <HelpTOCNode Title="Current Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_Current.htm" />
+          <HelpTOCNode Title="DefaultAccess Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_DefaultAccess.htm" />
+          <HelpTOCNode Title="DisableListIndexTypeRestriction Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_DisableListIndexTypeRestriction.htm" />
+          <HelpTOCNode Title="DisableTypeRestriction Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_DisableTypeRestriction.htm" />
+          <HelpTOCNode Title="EnableAutoHostVariables Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_EnableAutoHostVariables.htm" />
+          <HelpTOCNode Title="EnableNullResultWrapping Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_EnableNullResultWrapping.htm" />
+          <HelpTOCNode Title="FileNameExtension Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_FileNameExtension.htm" />
+          <HelpTOCNode Title="FormatCode Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_FormatCode.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_Name.htm" />
+          <HelpTOCNode Title="Script Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_Script.htm" />
+          <HelpTOCNode Title="UseReflectionBindFallback Property " Url="html/P_Microsoft_ClearScript_ScriptEngine_UseReflectionBindFallback.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="67c4a866-283a-44b0-b879-a5db4857ac72" Title="ScriptEngine Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptEngine.htm">
+          <HelpTOCNode Id="bb5251d9-3989-414a-a531-0f53ed67407e" Title="AddCOMObject Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_AddCOMObject.htm">
+            <HelpTOCNode Title="AddCOMObject Method (String, Guid)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_4.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_6.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, HostItemFlags, Guid)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, HostItemFlags, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_2.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, Guid, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_5.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_7.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, HostItemFlags, Guid, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_1.htm" />
+            <HelpTOCNode Title="AddCOMObject Method (String, HostItemFlags, String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMObject_3.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="d0437783-acdc-4f8b-b7aa-0ceb33ce2eff" Title="AddCOMType Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_AddCOMType.htm">
+            <HelpTOCNode Title="AddCOMType Method (String, Guid)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_4.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_6.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, HostItemFlags, Guid)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, HostItemFlags, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_2.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, Guid, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_5.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_7.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, HostItemFlags, Guid, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_1.htm" />
+            <HelpTOCNode Title="AddCOMType Method (String, HostItemFlags, String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddCOMType_3.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="71ba8c05-af80-4a00-97cd-1336cd46a1ba" Title="AddHostObject Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_AddHostObject.htm">
+            <HelpTOCNode Title="AddHostObject Method (String, Object)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostObject_1.htm" />
+            <HelpTOCNode Title="AddHostObject Method (String, HostItemFlags, Object)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostObject.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="ddbe3636-e55f-459a-be9c-918776dbd157" Title="AddHostType Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_AddHostType.htm">
+            <HelpTOCNode Title="AddHostType Method (Type)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_7.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, Type)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_6.htm" />
+            <HelpTOCNode Title="AddHostType Method (HostItemFlags, Type)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, HostItemFlags, Type)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_3.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, String, Type[])" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_5.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, HostItemFlags, String, Type[])" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_2.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, String, String, Type[])" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_4.htm" />
+            <HelpTOCNode Title="AddHostType Method (String, HostItemFlags, String, String, Type[])" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddHostType_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="ddc2a4c5-aa84-47f5-9843-5711a96bf13f" Title="AddRestrictedHostObject Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_AddRestrictedHostObject.htm">
+            <HelpTOCNode Title="AddRestrictedHostObject(T) Method (String, T)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddRestrictedHostObject__1_1.htm" />
+            <HelpTOCNode Title="AddRestrictedHostObject(T) Method (String, HostItemFlags, T)" Url="html/M_Microsoft_ClearScript_ScriptEngine_AddRestrictedHostObject__1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CollectGarbage Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_CollectGarbage.htm" />
+          <HelpTOCNode Id="bffdfb65-1b15-475b-9bb4-a547176ef517" Title="Dispose Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="c945c7a7-c55d-4924-a987-6a075b2b3e28" Title="Evaluate Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_Evaluate.htm">
+            <HelpTOCNode Title="Evaluate Method (String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Evaluate.htm" />
+            <HelpTOCNode Title="Evaluate Method (String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Evaluate_2.htm" />
+            <HelpTOCNode Title="Evaluate Method (String, Boolean, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Evaluate_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="80d98969-7304-47e7-bc25-c6bcb6677ed6" Title="Execute Method " Url="html/Overload_Microsoft_ClearScript_ScriptEngine_Execute.htm">
+            <HelpTOCNode Title="Execute Method (String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Execute.htm" />
+            <HelpTOCNode Title="Execute Method (String, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Execute_2.htm" />
+            <HelpTOCNode Title="Execute Method (String, Boolean, String)" Url="html/M_Microsoft_ClearScript_ScriptEngine_Execute_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ExecuteCommand Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_ExecuteCommand.htm" />
+          <HelpTOCNode Title="Finalize Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_Finalize.htm" />
+          <HelpTOCNode Title="GetStackTrace Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_GetStackTrace.htm" />
+          <HelpTOCNode Title="Interrupt Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_Interrupt.htm" />
+          <HelpTOCNode Title="Invoke Method " Url="html/M_Microsoft_ClearScript_ScriptEngine_Invoke.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="de684b80-815e-45f8-b7de-a1ce22b004db" Title="ScriptEngineException Class" Url="html/T_Microsoft_ClearScript_ScriptEngineException.htm">
+        <HelpTOCNode Id="a67db59f-6f4e-4e3c-8bd7-f32b663276c9" Title="ScriptEngineException Constructor " Url="html/Overload_Microsoft_ClearScript_ScriptEngineException__ctor.htm">
+          <HelpTOCNode Title="ScriptEngineException Constructor " Url="html/M_Microsoft_ClearScript_ScriptEngineException__ctor.htm" />
+          <HelpTOCNode Title="ScriptEngineException Constructor (String)" Url="html/M_Microsoft_ClearScript_ScriptEngineException__ctor_2.htm" />
+          <HelpTOCNode Title="ScriptEngineException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Microsoft_ClearScript_ScriptEngineException__ctor_1.htm" />
+          <HelpTOCNode Title="ScriptEngineException Constructor (String, Exception)" Url="html/M_Microsoft_ClearScript_ScriptEngineException__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4516b39b-18ff-47aa-a557-3201adf9d2b7" Title="ScriptEngineException Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptEngineException.htm">
+          <HelpTOCNode Title="EngineName Property " Url="html/P_Microsoft_ClearScript_ScriptEngineException_EngineName.htm" />
+          <HelpTOCNode Title="ErrorDetails Property " Url="html/P_Microsoft_ClearScript_ScriptEngineException_ErrorDetails.htm" />
+          <HelpTOCNode Title="ExecutionStarted Property " Url="html/P_Microsoft_ClearScript_ScriptEngineException_ExecutionStarted.htm" />
+          <HelpTOCNode Title="IsFatal Property " Url="html/P_Microsoft_ClearScript_ScriptEngineException_IsFatal.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f177888e-d871-47da-a7df-133ba3b18bb2" Title="ScriptEngineException Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptEngineException.htm">
+          <HelpTOCNode Title="GetObjectData Method " Url="html/M_Microsoft_ClearScript_ScriptEngineException_GetObjectData.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ScriptEngineException Events" Url="html/Events_T_Microsoft_ClearScript_ScriptEngineException.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d374bfd2-67e0-4bca-8959-ecd6d8ca70c9" Title="ScriptInterruptedException Class" Url="html/T_Microsoft_ClearScript_ScriptInterruptedException.htm">
+        <HelpTOCNode Id="4eca9456-f9e5-46a5-b557-21dcd6d4c51d" Title="ScriptInterruptedException Constructor " Url="html/Overload_Microsoft_ClearScript_ScriptInterruptedException__ctor.htm">
+          <HelpTOCNode Title="ScriptInterruptedException Constructor " Url="html/M_Microsoft_ClearScript_ScriptInterruptedException__ctor.htm" />
+          <HelpTOCNode Title="ScriptInterruptedException Constructor (String)" Url="html/M_Microsoft_ClearScript_ScriptInterruptedException__ctor_2.htm" />
+          <HelpTOCNode Title="ScriptInterruptedException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Microsoft_ClearScript_ScriptInterruptedException__ctor_1.htm" />
+          <HelpTOCNode Title="ScriptInterruptedException Constructor (String, Exception)" Url="html/M_Microsoft_ClearScript_ScriptInterruptedException__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b01c1a69-e2ff-468c-badc-88a4fedebaf6" Title="ScriptInterruptedException Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptInterruptedException.htm">
+          <HelpTOCNode Title="EngineName Property " Url="html/P_Microsoft_ClearScript_ScriptInterruptedException_EngineName.htm" />
+          <HelpTOCNode Title="ErrorDetails Property " Url="html/P_Microsoft_ClearScript_ScriptInterruptedException_ErrorDetails.htm" />
+          <HelpTOCNode Title="ExecutionStarted Property " Url="html/P_Microsoft_ClearScript_ScriptInterruptedException_ExecutionStarted.htm" />
+          <HelpTOCNode Title="IsFatal Property " Url="html/P_Microsoft_ClearScript_ScriptInterruptedException_IsFatal.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9a66a1c8-519b-4a49-9dfa-154d72da2ad7" Title="ScriptInterruptedException Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptInterruptedException.htm">
+          <HelpTOCNode Title="GetObjectData Method " Url="html/M_Microsoft_ClearScript_ScriptInterruptedException_GetObjectData.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ScriptInterruptedException Events" Url="html/Events_T_Microsoft_ClearScript_ScriptInterruptedException.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bdcb6fa0-0aaf-4c99-8187-cbc3591db388" Title="ScriptMemberAttribute Class" Url="html/T_Microsoft_ClearScript_ScriptMemberAttribute.htm">
+        <HelpTOCNode Id="f1103ef5-10cc-48b3-a1b2-e8f5540a6451" Title="ScriptMemberAttribute Constructor " Url="html/Overload_Microsoft_ClearScript_ScriptMemberAttribute__ctor.htm">
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor " Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (String)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_4.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (ScriptAccess)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_1.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (ScriptMemberFlags)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_3.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (String, ScriptAccess)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_5.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (String, ScriptMemberFlags)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_7.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (ScriptAccess, ScriptMemberFlags)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_2.htm" />
+          <HelpTOCNode Title="ScriptMemberAttribute Constructor (String, ScriptAccess, ScriptMemberFlags)" Url="html/M_Microsoft_ClearScript_ScriptMemberAttribute__ctor_6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c3ff899f-ae21-4d00-b0ef-35fff1ddfcb0" Title="ScriptMemberAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptMemberAttribute.htm">
+          <HelpTOCNode Title="Flags Property " Url="html/P_Microsoft_ClearScript_ScriptMemberAttribute_Flags.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Microsoft_ClearScript_ScriptMemberAttribute_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ScriptMemberAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptMemberAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ScriptMemberFlags Enumeration" Url="html/T_Microsoft_ClearScript_ScriptMemberFlags.htm" />
+      <HelpTOCNode Id="8fec6006-92f5-4586-8165-7deaba1a81f9" Title="ScriptObject Class" Url="html/T_Microsoft_ClearScript_ScriptObject.htm">
+        <HelpTOCNode Id="bd2a7604-c008-47f5-aba7-3320e08b2ece" Title="ScriptObject Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptObject.htm">
+          <HelpTOCNode Title="Engine Property " Url="html/P_Microsoft_ClearScript_ScriptObject_Engine.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ScriptObject Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptObject.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef1ed2f1-e1db-4f0d-ace0-4a4b199fdc2a" Title="ScriptUsageAttribute Class" Url="html/T_Microsoft_ClearScript_ScriptUsageAttribute.htm">
+        <HelpTOCNode Id="284c07bd-c66c-4c3f-8461-172316fb2158" Title="ScriptUsageAttribute Constructor " Url="html/Overload_Microsoft_ClearScript_ScriptUsageAttribute__ctor.htm">
+          <HelpTOCNode Title="ScriptUsageAttribute Constructor " Url="html/M_Microsoft_ClearScript_ScriptUsageAttribute__ctor.htm" />
+          <HelpTOCNode Title="ScriptUsageAttribute Constructor (ScriptAccess)" Url="html/M_Microsoft_ClearScript_ScriptUsageAttribute__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a4594572-7538-42b9-a25a-ab4785b7eaed" Title="ScriptUsageAttribute Properties" Url="html/Properties_T_Microsoft_ClearScript_ScriptUsageAttribute.htm">
+          <HelpTOCNode Title="Access Property " Url="html/P_Microsoft_ClearScript_ScriptUsageAttribute_Access.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ScriptUsageAttribute Methods" Url="html/Methods_T_Microsoft_ClearScript_ScriptUsageAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b770c23d-63ff-4052-8bfb-3527282ec32e" Title="Undefined Class" Url="html/T_Microsoft_ClearScript_Undefined.htm">
+        <HelpTOCNode Id="8f74c658-f665-4e32-be83-1d34508ab184" Title="Undefined Methods" Url="html/Methods_T_Microsoft_ClearScript_Undefined.htm">
+          <HelpTOCNode Title="ToString Method " Url="html/M_Microsoft_ClearScript_Undefined_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="68ed7865-0072-4125-b5e7-ace45e229e1b" Title="VoidResult Class" Url="html/T_Microsoft_ClearScript_VoidResult.htm">
+        <HelpTOCNode Title="VoidResult Methods" Url="html/Methods_T_Microsoft_ClearScript_VoidResult.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="761b5d40-468e-4c82-935d-dce335e4850a" Title="Microsoft.ClearScript.JavaScript" Url="html/N_Microsoft_ClearScript_JavaScript.htm">
+      <HelpTOCNode Id="2e9399c2-aa27-4712-bee7-fe0d4cef2b7c" Title="IArrayBuffer Interface" Url="html/T_Microsoft_ClearScript_JavaScript_IArrayBuffer.htm">
+        <HelpTOCNode Id="e7689702-2503-4f2b-b92b-8c4c971ee445" Title="IArrayBuffer Properties" Url="html/Properties_T_Microsoft_ClearScript_JavaScript_IArrayBuffer.htm">
+          <HelpTOCNode Title="Size Property " Url="html/P_Microsoft_ClearScript_JavaScript_IArrayBuffer_Size.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="962af43f-8acd-487e-9055-320e82d944ab" Title="IArrayBuffer Methods" Url="html/Methods_T_Microsoft_ClearScript_JavaScript_IArrayBuffer.htm">
+          <HelpTOCNode Title="GetBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBuffer_GetBytes.htm" />
+          <HelpTOCNode Title="ReadBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBuffer_ReadBytes.htm" />
+          <HelpTOCNode Title="WriteBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBuffer_WriteBytes.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9fc9712c-18c3-499f-b0fc-43dc68bafa49" Title="IArrayBufferView Interface" Url="html/T_Microsoft_ClearScript_JavaScript_IArrayBufferView.htm">
+        <HelpTOCNode Id="4ddb0c90-9df1-41ea-a070-de7c90dd9606" Title="IArrayBufferView Properties" Url="html/Properties_T_Microsoft_ClearScript_JavaScript_IArrayBufferView.htm">
+          <HelpTOCNode Title="ArrayBuffer Property " Url="html/P_Microsoft_ClearScript_JavaScript_IArrayBufferView_ArrayBuffer.htm" />
+          <HelpTOCNode Title="Offset Property " Url="html/P_Microsoft_ClearScript_JavaScript_IArrayBufferView_Offset.htm" />
+          <HelpTOCNode Title="Size Property " Url="html/P_Microsoft_ClearScript_JavaScript_IArrayBufferView_Size.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="32ae9e1c-6559-42e0-beed-76ff705ec34b" Title="IArrayBufferView Methods" Url="html/Methods_T_Microsoft_ClearScript_JavaScript_IArrayBufferView.htm">
+          <HelpTOCNode Title="GetBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBufferView_GetBytes.htm" />
+          <HelpTOCNode Title="ReadBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBufferView_ReadBytes.htm" />
+          <HelpTOCNode Title="WriteBytes Method " Url="html/M_Microsoft_ClearScript_JavaScript_IArrayBufferView_WriteBytes.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e749a8d0-2dba-46f8-9315-5639588efa83" Title="IDataView Interface" Url="html/T_Microsoft_ClearScript_JavaScript_IDataView.htm">
+        <HelpTOCNode Title="IDataView Properties" Url="html/Properties_T_Microsoft_ClearScript_JavaScript_IDataView.htm" />
+        <HelpTOCNode Title="IDataView Methods" Url="html/Methods_T_Microsoft_ClearScript_JavaScript_IDataView.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c21217b-9289-4704-89b0-38e6e104971c" Title="ITypedArray Interface" Url="html/T_Microsoft_ClearScript_JavaScript_ITypedArray.htm">
+        <HelpTOCNode Id="a61bbf34-6bd1-4a62-9a14-eb1483cf6076" Title="ITypedArray Properties" Url="html/Properties_T_Microsoft_ClearScript_JavaScript_ITypedArray.htm">
+          <HelpTOCNode Title="Length Property " Url="html/P_Microsoft_ClearScript_JavaScript_ITypedArray_Length.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ITypedArray Methods" Url="html/Methods_T_Microsoft_ClearScript_JavaScript_ITypedArray.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4df0826-b5f1-44b7-8e3c-04d9af7e6e3b" Title="ITypedArray(T) Interface" Url="html/T_Microsoft_ClearScript_JavaScript_ITypedArray_1.htm">
+        <HelpTOCNode Title="ITypedArray(T) Properties" Url="html/Properties_T_Microsoft_ClearScript_JavaScript_ITypedArray_1.htm" />
+        <HelpTOCNode Id="e1a582c7-6ae3-4636-af72-42c001dc492f" Title="ITypedArray(T) Methods" Url="html/Methods_T_Microsoft_ClearScript_JavaScript_ITypedArray_1.htm">
+          <HelpTOCNode Title="Read Method " Url="html/M_Microsoft_ClearScript_JavaScript_ITypedArray_1_Read.htm" />
+          <HelpTOCNode Title="ToArray Method " Url="html/M_Microsoft_ClearScript_JavaScript_ITypedArray_1_ToArray.htm" />
+          <HelpTOCNode Title="Write Method " Url="html/M_Microsoft_ClearScript_JavaScript_ITypedArray_1_Write.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6421750-25dd-4fd7-b51e-6454a0a101c2" Title="Microsoft.ClearScript.V8" Url="html/N_Microsoft_ClearScript_V8.htm">
+      <HelpTOCNode Title="V8CacheKind Enumeration" Url="html/T_Microsoft_ClearScript_V8_V8CacheKind.htm" />
+      <HelpTOCNode Id="57398f6a-5fe8-4b89-9c1a-fa0c5da72e36" Title="V8Runtime Class" Url="html/T_Microsoft_ClearScript_V8_V8Runtime.htm">
+        <HelpTOCNode Id="f1457bbe-5577-472f-b735-9510298522c8" Title="V8Runtime Constructor " Url="html/Overload_Microsoft_ClearScript_V8_V8Runtime__ctor.htm">
+          <HelpTOCNode Title="V8Runtime Constructor " Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_6.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (V8RuntimeConstraints)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_1.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (V8RuntimeFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_4.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String, V8RuntimeConstraints)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_7.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String, V8RuntimeFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_10.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (V8RuntimeConstraints, V8RuntimeFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_2.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (V8RuntimeFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_5.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String, V8RuntimeConstraints, V8RuntimeFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_8.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String, V8RuntimeFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_11.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (V8RuntimeConstraints, V8RuntimeFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_3.htm" />
+          <HelpTOCNode Title="V8Runtime Constructor (String, V8RuntimeConstraints, V8RuntimeFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime__ctor_9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e2747985-0a17-4819-9273-b39a066ac59e" Title="V8Runtime Properties" Url="html/Properties_T_Microsoft_ClearScript_V8_V8Runtime.htm">
+          <HelpTOCNode Title="FormatCode Property " Url="html/P_Microsoft_ClearScript_V8_V8Runtime_FormatCode.htm" />
+          <HelpTOCNode Title="HeapSizeSampleInterval Property " Url="html/P_Microsoft_ClearScript_V8_V8Runtime_HeapSizeSampleInterval.htm" />
+          <HelpTOCNode Title="MaxHeapSize Property " Url="html/P_Microsoft_ClearScript_V8_V8Runtime_MaxHeapSize.htm" />
+          <HelpTOCNode Title="MaxStackUsage Property " Url="html/P_Microsoft_ClearScript_V8_V8Runtime_MaxStackUsage.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Microsoft_ClearScript_V8_V8Runtime_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e263d624-3661-47ff-84ff-e080da5d8ca6" Title="V8Runtime Methods" Url="html/Methods_T_Microsoft_ClearScript_V8_V8Runtime.htm">
+          <HelpTOCNode Title="CollectGarbage Method " Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CollectGarbage.htm" />
+          <HelpTOCNode Id="37157adf-f659-4a21-bcc9-8daaab6634cc" Title="Compile Method " Url="html/Overload_Microsoft_ClearScript_V8_V8Runtime_Compile.htm">
+            <HelpTOCNode Title="Compile Method (String)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile.htm" />
+            <HelpTOCNode Title="Compile Method (String, String)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile_3.htm" />
+            <HelpTOCNode Title="Compile Method (String, V8CacheKind, Byte[])" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile_2.htm" />
+            <HelpTOCNode Title="Compile Method (String, V8CacheKind, Byte[], Boolean)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile_1.htm" />
+            <HelpTOCNode Title="Compile Method (String, String, V8CacheKind, Byte[])" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile_5.htm" />
+            <HelpTOCNode Title="Compile Method (String, String, V8CacheKind, Byte[], Boolean)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Compile_4.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="2e253d10-e885-43cc-af50-259363b049b1" Title="CreateScriptEngine Method " Url="html/Overload_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine.htm">
+            <HelpTOCNode Title="CreateScriptEngine Method " Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine.htm" />
+            <HelpTOCNode Title="CreateScriptEngine Method (String)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine_3.htm" />
+            <HelpTOCNode Title="CreateScriptEngine Method (V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine_1.htm" />
+            <HelpTOCNode Title="CreateScriptEngine Method (String, V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine_4.htm" />
+            <HelpTOCNode Title="CreateScriptEngine Method (V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine_2.htm" />
+            <HelpTOCNode Title="CreateScriptEngine Method (String, V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8Runtime_CreateScriptEngine_5.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Microsoft_ClearScript_V8_V8Runtime_Dispose.htm" />
+          <HelpTOCNode Title="GetHeapInfo Method " Url="html/M_Microsoft_ClearScript_V8_V8Runtime_GetHeapInfo.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f0eb385-0c76-4104-92cc-e2fea00a98a8" Title="V8RuntimeConstraints Class" Url="html/T_Microsoft_ClearScript_V8_V8RuntimeConstraints.htm">
+        <HelpTOCNode Title="V8RuntimeConstraints Constructor " Url="html/M_Microsoft_ClearScript_V8_V8RuntimeConstraints__ctor.htm" />
+        <HelpTOCNode Id="6ad7b535-dd3f-4cae-a508-4dc244c12071" Title="V8RuntimeConstraints Properties" Url="html/Properties_T_Microsoft_ClearScript_V8_V8RuntimeConstraints.htm">
+          <HelpTOCNode Title="MaxExecutableSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeConstraints_MaxExecutableSize.htm" />
+          <HelpTOCNode Title="MaxNewSpaceSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeConstraints_MaxNewSpaceSize.htm" />
+          <HelpTOCNode Title="MaxOldSpaceSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeConstraints_MaxOldSpaceSize.htm" />
+          <HelpTOCNode Title="MaxYoungSpaceSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeConstraints_MaxYoungSpaceSize.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="V8RuntimeConstraints Methods" Url="html/Methods_T_Microsoft_ClearScript_V8_V8RuntimeConstraints.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="V8RuntimeFlags Enumeration" Url="html/T_Microsoft_ClearScript_V8_V8RuntimeFlags.htm" />
+      <HelpTOCNode Id="953057a2-fedd-40f0-ba45-c25e27594013" Title="V8RuntimeHeapInfo Class" Url="html/T_Microsoft_ClearScript_V8_V8RuntimeHeapInfo.htm">
+        <HelpTOCNode Id="b5b9e9b6-9129-433a-b3ba-d5b8b9e4b2db" Title="V8RuntimeHeapInfo Properties" Url="html/Properties_T_Microsoft_ClearScript_V8_V8RuntimeHeapInfo.htm">
+          <HelpTOCNode Title="HeapSizeLimit Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeHeapInfo_HeapSizeLimit.htm" />
+          <HelpTOCNode Title="TotalHeapSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeHeapInfo_TotalHeapSize.htm" />
+          <HelpTOCNode Title="TotalHeapSizeExecutable Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeHeapInfo_TotalHeapSizeExecutable.htm" />
+          <HelpTOCNode Title="TotalPhysicalSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeHeapInfo_TotalPhysicalSize.htm" />
+          <HelpTOCNode Title="UsedHeapSize Property " Url="html/P_Microsoft_ClearScript_V8_V8RuntimeHeapInfo_UsedHeapSize.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="V8RuntimeHeapInfo Methods" Url="html/Methods_T_Microsoft_ClearScript_V8_V8RuntimeHeapInfo.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7954f2a3-175a-4a5d-8fbe-f45d65f8404b" Title="V8Script Class" Url="html/T_Microsoft_ClearScript_V8_V8Script.htm">
+        <HelpTOCNode Id="c2bab73a-3682-4634-a226-940dcb903c7c" Title="V8Script Properties" Url="html/Properties_T_Microsoft_ClearScript_V8_V8Script.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Microsoft_ClearScript_V8_V8Script_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1ff4378b-0267-4465-96f9-e3a57bee597f" Title="V8Script Methods" Url="html/Methods_T_Microsoft_ClearScript_V8_V8Script.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Microsoft_ClearScript_V8_V8Script_Dispose.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="14ad9119-fda3-4851-a5e5-a32ad5a32ccc" Title="V8ScriptEngine Class" Url="html/T_Microsoft_ClearScript_V8_V8ScriptEngine.htm">
+        <HelpTOCNode Id="a8e081ff-ca30-4fe0-b8df-2f43efc81d84" Title="V8ScriptEngine Constructor " Url="html/Overload_Microsoft_ClearScript_V8_V8ScriptEngine__ctor.htm">
+          <HelpTOCNode Title="V8ScriptEngine Constructor " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_6.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (V8RuntimeConstraints)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_1.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_4.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String, V8RuntimeConstraints)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_7.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String, V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_10.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (V8RuntimeConstraints, V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_2.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_5.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String, V8RuntimeConstraints, V8ScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_8.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String, V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_11.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (V8RuntimeConstraints, V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_3.htm" />
+          <HelpTOCNode Title="V8ScriptEngine Constructor (String, V8RuntimeConstraints, V8ScriptEngineFlags, Int32)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine__ctor_9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9fb2df87-da44-4e68-b335-523cece4322f" Title="V8ScriptEngine Properties" Url="html/Properties_T_Microsoft_ClearScript_V8_V8ScriptEngine.htm">
+          <HelpTOCNode Title="FileNameExtension Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_FileNameExtension.htm" />
+          <HelpTOCNode Title="MaxRuntimeHeapSize Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_MaxRuntimeHeapSize.htm" />
+          <HelpTOCNode Title="MaxRuntimeStackUsage Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_MaxRuntimeStackUsage.htm" />
+          <HelpTOCNode Title="RuntimeHeapSizeSampleInterval Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_RuntimeHeapSizeSampleInterval.htm" />
+          <HelpTOCNode Title="Script Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_Script.htm" />
+          <HelpTOCNode Title="SuppressExtensionMethodEnumeration Property " Url="html/P_Microsoft_ClearScript_V8_V8ScriptEngine_SuppressExtensionMethodEnumeration.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fafd2d25-3b7b-4f67-b6c6-e6e97235f24b" Title="V8ScriptEngine Methods" Url="html/Methods_T_Microsoft_ClearScript_V8_V8ScriptEngine.htm">
+          <HelpTOCNode Title="CollectGarbage Method " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_CollectGarbage.htm" />
+          <HelpTOCNode Id="3632df7e-3858-4979-8892-950d0b550046" Title="Compile Method " Url="html/Overload_Microsoft_ClearScript_V8_V8ScriptEngine_Compile.htm">
+            <HelpTOCNode Title="Compile Method (String)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile.htm" />
+            <HelpTOCNode Title="Compile Method (String, String)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile_3.htm" />
+            <HelpTOCNode Title="Compile Method (String, V8CacheKind, Byte[])" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile_2.htm" />
+            <HelpTOCNode Title="Compile Method (String, V8CacheKind, Byte[], Boolean)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile_1.htm" />
+            <HelpTOCNode Title="Compile Method (String, String, V8CacheKind, Byte[])" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile_5.htm" />
+            <HelpTOCNode Title="Compile Method (String, String, V8CacheKind, Byte[], Boolean)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Compile_4.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="add80692-f47f-4af9-aa6e-162a8e3ab870" Title="Dispose Method " Url="html/Overload_Microsoft_ClearScript_V8_V8ScriptEngine_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="79cd7e4a-530f-4f5f-b9f5-c9bcfbbc04e5" Title="Evaluate Method " Url="html/Overload_Microsoft_ClearScript_V8_V8ScriptEngine_Evaluate.htm">
+            <HelpTOCNode Title="Evaluate Method (V8Script)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Evaluate.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="c838278e-355d-43b2-ac3d-5ac3bbcebf8b" Title="Execute Method " Url="html/Overload_Microsoft_ClearScript_V8_V8ScriptEngine_Execute.htm">
+            <HelpTOCNode Title="Execute Method (V8Script)" Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Execute.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ExecuteCommand Method " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_ExecuteCommand.htm" />
+          <HelpTOCNode Title="GetRuntimeHeapInfo Method " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_GetRuntimeHeapInfo.htm" />
+          <HelpTOCNode Title="GetStackTrace Method " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_GetStackTrace.htm" />
+          <HelpTOCNode Title="Interrupt Method " Url="html/M_Microsoft_ClearScript_V8_V8ScriptEngine_Interrupt.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="V8ScriptEngineFlags Enumeration" Url="html/T_Microsoft_ClearScript_V8_V8ScriptEngineFlags.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a6ed980-2161-48e8-af75-b121cd662b1f" Title="Microsoft.ClearScript.Windows" Url="html/N_Microsoft_ClearScript_Windows.htm">
+      <HelpTOCNode Id="df5cc5b6-4c00-4e6a-af7a-7ebeace92948" Title="IHostWindow Interface" Url="html/T_Microsoft_ClearScript_Windows_IHostWindow.htm">
+        <HelpTOCNode Id="5c3e3415-87bf-4088-bc91-33dbae15c700" Title="IHostWindow Properties" Url="html/Properties_T_Microsoft_ClearScript_Windows_IHostWindow.htm">
+          <HelpTOCNode Title="OwnerHandle Property " Url="html/P_Microsoft_ClearScript_Windows_IHostWindow_OwnerHandle.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="98f79296-9f40-439d-b6ca-5a0665ed1323" Title="IHostWindow Methods" Url="html/Methods_T_Microsoft_ClearScript_Windows_IHostWindow.htm">
+          <HelpTOCNode Title="EnableModeless Method " Url="html/M_Microsoft_ClearScript_Windows_IHostWindow_EnableModeless.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="410a6b31-cb13-4753-8fa4-ea65bc846d1f" Title="JScriptEngine Class" Url="html/T_Microsoft_ClearScript_Windows_JScriptEngine.htm">
+        <HelpTOCNode Id="fba474e5-c254-4f54-91e0-0738d544b56d" Title="JScriptEngine Constructor " Url="html/Overload_Microsoft_ClearScript_Windows_JScriptEngine__ctor.htm">
+          <HelpTOCNode Title="JScriptEngine Constructor " Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine__ctor.htm" />
+          <HelpTOCNode Title="JScriptEngine Constructor (String)" Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine__ctor_2.htm" />
+          <HelpTOCNode Title="JScriptEngine Constructor (WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine__ctor_1.htm" />
+          <HelpTOCNode Title="JScriptEngine Constructor (String, WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine__ctor_3.htm" />
+          <HelpTOCNode Title="JScriptEngine Constructor (String, String, WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine__ctor_4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c51237b5-fe71-4b74-8484-90d8bc0d3d04" Title="JScriptEngine Properties" Url="html/Properties_T_Microsoft_ClearScript_Windows_JScriptEngine.htm">
+          <HelpTOCNode Title="FileNameExtension Property " Url="html/P_Microsoft_ClearScript_Windows_JScriptEngine_FileNameExtension.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="85084b88-6689-4828-881d-5c5bc0cda060" Title="JScriptEngine Methods" Url="html/Methods_T_Microsoft_ClearScript_Windows_JScriptEngine.htm">
+          <HelpTOCNode Title="ExecuteCommand Method " Url="html/M_Microsoft_ClearScript_Windows_JScriptEngine_ExecuteCommand.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="21e0b9d1-fa4a-41cb-8d4e-dcb9c5ee43a0" Title="VBScriptEngine Class" Url="html/T_Microsoft_ClearScript_Windows_VBScriptEngine.htm">
+        <HelpTOCNode Id="2209d146-c8e4-4bd0-8e7d-ad2ae2850a78" Title="VBScriptEngine Constructor " Url="html/Overload_Microsoft_ClearScript_Windows_VBScriptEngine__ctor.htm">
+          <HelpTOCNode Title="VBScriptEngine Constructor " Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine__ctor.htm" />
+          <HelpTOCNode Title="VBScriptEngine Constructor (String)" Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine__ctor_2.htm" />
+          <HelpTOCNode Title="VBScriptEngine Constructor (WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine__ctor_1.htm" />
+          <HelpTOCNode Title="VBScriptEngine Constructor (String, WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine__ctor_3.htm" />
+          <HelpTOCNode Title="VBScriptEngine Constructor (String, String, WindowsScriptEngineFlags)" Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine__ctor_4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6350c506-1de7-4d41-8f8e-8074e1202a60" Title="VBScriptEngine Properties" Url="html/Properties_T_Microsoft_ClearScript_Windows_VBScriptEngine.htm">
+          <HelpTOCNode Title="FileNameExtension Property " Url="html/P_Microsoft_ClearScript_Windows_VBScriptEngine_FileNameExtension.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aab7d107-c51a-4415-a026-1f1ce141ba61" Title="VBScriptEngine Methods" Url="html/Methods_T_Microsoft_ClearScript_Windows_VBScriptEngine.htm">
+          <HelpTOCNode Title="ExecuteCommand Method " Url="html/M_Microsoft_ClearScript_Windows_VBScriptEngine_ExecuteCommand.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2bf956c6-7684-42a6-b57b-2366bf67f922" Title="WindowsScriptEngine Class" Url="html/T_Microsoft_ClearScript_Windows_WindowsScriptEngine.htm">
+        <HelpTOCNode Title="WindowsScriptEngine Constructor " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine__ctor.htm" />
+        <HelpTOCNode Id="42080953-8041-4586-abae-808c82c83689" Title="WindowsScriptEngine Properties" Url="html/Properties_T_Microsoft_ClearScript_Windows_WindowsScriptEngine.htm">
+          <HelpTOCNode Title="Dispatcher Property " Url="html/P_Microsoft_ClearScript_Windows_WindowsScriptEngine_Dispatcher.htm" />
+          <HelpTOCNode Title="HostWindow Property " Url="html/P_Microsoft_ClearScript_Windows_WindowsScriptEngine_HostWindow.htm" />
+          <HelpTOCNode Title="Script Property " Url="html/P_Microsoft_ClearScript_Windows_WindowsScriptEngine_Script.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5fa84ad8-9558-4f32-a39f-01d5198bb21b" Title="WindowsScriptEngine Methods" Url="html/Methods_T_Microsoft_ClearScript_Windows_WindowsScriptEngine.htm">
+          <HelpTOCNode Title="CheckAccess Method " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_CheckAccess.htm" />
+          <HelpTOCNode Title="CollectGarbage Method " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_CollectGarbage.htm" />
+          <HelpTOCNode Id="d93a5433-45df-497c-bfa9-ab22cffb0b5c" Title="Dispose Method " Url="html/Overload_Microsoft_ClearScript_Windows_WindowsScriptEngine_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetStackTrace Method " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_GetStackTrace.htm" />
+          <HelpTOCNode Title="Interrupt Method " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_Interrupt.htm" />
+          <HelpTOCNode Title="VerifyAccess Method " Url="html/M_Microsoft_ClearScript_Windows_WindowsScriptEngine_VerifyAccess.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="WindowsScriptEngineFlags Enumeration" Url="html/T_Microsoft_ClearScript_Windows_WindowsScriptEngineFlags.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

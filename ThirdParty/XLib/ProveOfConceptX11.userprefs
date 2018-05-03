@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="X11Wrapper/X11lib.cs">
+    <Files>
+      <File FileName="X11/X11Window.cs" Line="51" Column="1" />
+      <File FileName="X11/Xrw/SimpleWidgets/XrwCommand.cs" Line="107" Column="1" />
+      <File FileName="X11/Xrw/BaseWidgets/XrwSimple.cs" Line="130" Column="1" />
+      <File FileName="X11/Xrw/Shells/XrwApplicationShell.cs" Line="931" Column="64" />
+      <File FileName="X11/Xrw/BaseWidgets/XrwRectObj.cs" Line="512" Column="3" />
+      <File FileName="X11Wrapper/X11Contracts.cs" Line="1" Column="1" />
+      <File FileName="X11Wrapper/X11lib.cs" Line="95" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="X11Wrapper" expanded="True">
+            <Node name="X11lib.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/rupert/Projects/X11/01_ProveOfConceptX11/X11/Xrw/BaseWidgets/XrwRectObj.cs" line="713" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

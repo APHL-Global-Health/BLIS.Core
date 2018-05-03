@@ -1,0 +1,13 @@
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/bin/Debug/Convenience/X11Graphic.cs
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/bin/Debug/X11Wrapper.dll
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/bin/Debug/X11Wrapper.pdb
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/obj/Debug/X11Wrapper.csproj.CoreCompileInputs.cache
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/obj/Debug/X11Wrapper.dll
+/home/fredrick/Projects/ePlug-Mono/ThirdParty/XLib/X11Wrapper/obj/Debug/X11Wrapper.pdb
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\bin\Debug\Convenience\X11Graphic.cs
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\bin\Debug\X11Wrapper.dll
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\bin\Debug\X11Wrapper.pdb
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Debug\X11Wrapper.csproj.CoreCompileInputs.cache
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Debug\X11Wrapper.dll
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Debug\X11Wrapper.pdb
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Debug\X11Wrapper.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\bin\Release\Convenience\X11Graphic.cs
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\bin\Release\X11Wrapper.dll
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Release\X11Wrapper.csproj.CoreCompileInputs.cache
+E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\XLib\X11Wrapper\obj\Release\X11Wrapper.dll

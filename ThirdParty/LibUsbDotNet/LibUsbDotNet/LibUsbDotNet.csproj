@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15ED7C4E-4C2A-4F40-9B17-18BAB7ACAAD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LibUsbDotNet</RootNamespace>
+    <AssemblyName>LibUsbDotNet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>LIBUSBDOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <NoWarn>1701;1702;1705</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IUsbDevice.cs" />
+    <Compile Include="IUsbInterface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Descriptors\DescriptorType.cs" />
+    <Compile Include="Descriptors\LangStringDescriptor.cs" />
+    <Compile Include="Descriptors\StringDescriptor.cs" />
+    <Compile Include="Descriptors\UsbConfigDescriptor.cs" />
+    <Compile Include="Descriptors\UsbDescriptor.cs" />
+    <Compile Include="Descriptors\UsbDeviceDescriptor.cs" />
+    <Compile Include="Descriptors\UsbDeviceDescriptorBase.cs" />
+    <Compile Include="Descriptors\UsbEndpointDescriptor.cs" />
+    <Compile Include="Descriptors\UsbInterfaceDescriptor.cs" />
+    <Compile Include="DeviceNotify\DeviceNotifier.cs" />
+    <Compile Include="DeviceNotify\DeviceNotifyEventArgs.cs" />
+    <Compile Include="DeviceNotify\DeviceType.cs" />
+    <Compile Include="DeviceNotify\EventType.cs" />
+    <Compile Include="DeviceNotify\IDeviceNotifier.cs" />
+    <Compile Include="DeviceNotify\WindowsDeviceNotifier.cs" />
+    <Compile Include="DeviceNotify\WindowsDeviceNotifyEventArgs.cs" />
+    <Compile Include="DeviceNotify\Info\IPortNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Info\IUsbDeviceNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Info\IVolumeNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Info\PortNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Info\UsbDeviceNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Info\VolumeNotifyInfo.cs" />
+    <Compile Include="DeviceNotify\Internal\DevBroadcastDeviceinterface.cs" />
+    <Compile Include="DeviceNotify\Internal\DevBroadcastHdr.cs" />
+    <Compile Include="DeviceNotify\Internal\DevBroadcastPort.cs" />
+    <Compile Include="DeviceNotify\Internal\DevBroadcastVolume.cs" />
+    <Compile Include="DeviceNotify\Internal\DevNotifyNativeWindow.cs" />
+    <Compile Include="DeviceNotify\Internal\SafeHandleZeroOrMinusOneIsInvalid.cs" />
+    <Compile Include="DeviceNotify\Internal\SafeNotifyHandle.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDeviceNotifier.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDeviceNotifier.DeviceListPolling.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDeviceNotifier.DevMonitor.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDeviceNotifierMode.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDeviceNotifyEventArgs.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDevItem.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxDevItemList.cs" />
+    <Compile Include="DeviceNotify\Linux\LinuxUsbDeviceNotifyInfo.cs" />
+    <Compile Include="Info\UsbBaseInfo.cs" />
+    <Compile Include="Info\UsbConfigInfo.cs" />
+    <Compile Include="Info\UsbDeviceInfo.cs" />
+    <Compile Include="Info\UsbEndpointInfo.cs" />
+    <Compile Include="Info\UsbInterfaceInfo.cs" />
+    <Compile Include="Internal\Kernel32.cs" />
+    <Compile Include="Internal\OverlappedTransferContext.cs" />
+    <Compile Include="Internal\RegistryKeyPermissionCheck.cs" />
+    <Compile Include="Internal\SafeOverlapped.cs" />
+    <Compile Include="Internal\SetupApi.cs" />
+    <Compile Include="Internal\TransferContextBase.cs" />
+    <Compile Include="Internal\UsbApiBase.cs" />
+    <Compile Include="Internal\UsbRegex\BaseRegSymbolicName.cs" />
+    <Compile Include="Internal\UsbRegex\NamedGroup.cs" />
+    <Compile Include="Internal\UsbRegex\RegHardwareID.cs" />
+    <Compile Include="Internal\UsbRegex\RegSymbolicName.cs" />
+    <Compile Include="LibUsb\LibUsbDevice.cs" />
+    <Compile Include="LibUsb\LibUsbDeviceRegistryKeyRequest.cs" />
+    <Compile Include="LibUsb\LibUsbKernelType.cs" />
+    <Compile Include="LibUsb\LibUsbRegistry.cs" />
+    <Compile Include="LibUsb\Internal\LibUsbAPI.cs" />
+    <Compile Include="LibUsb\Internal\LibUsbDriverIO.cs" />
+    <Compile Include="LibUsb\Internal\LibUsbDriverIO_IOControlMessage.cs" />
+    <Compile Include="LibUsb\Internal\LibUsbIoCtl.cs" />
+    <Compile Include="LibUsb\Internal\LibUsbRequest.cs" />
+    <Compile Include="Main\ControlEpLockType.cs" />
+    <Compile Include="Main\DataEpLockType.cs" />
+    <Compile Include="Main\DataReceivedEnabledChangedEventArgs.cs" />
+    <Compile Include="Main\DeviceLockType.cs" />
+    <Compile Include="Main\DevicePropertyType.cs" />
+    <Compile Include="Main\EndpointDataEventArgs.cs" />
+    <Compile Include="Main\EndpointType.cs" />
+    <Compile Include="Main\ErrorCode.cs" />
+    <Compile Include="Main\Helper.cs" />
+    <Compile Include="Main\LegacyUsbRegistry.cs" />
+    <Compile Include="Main\ManualResetEventExtensions.cs" />
+    <Compile Include="Main\ReadEndpointID.cs" />
+    <Compile Include="Main\SafeContextHandle.cs" />
+    <Compile Include="Main\SetupApiRegistry.cs" />
+    <Compile Include="Main\SPDRP.cs" />
+    <Compile Include="Main\UsbConstants.cs" />
+    <Compile Include="Main\UsbCtrlFlags.cs" />
+    <Compile Include="Main\UsbDeviceFinder.cs" />
+    <Compile Include="Main\UsbEndpointBase.cs" />
+    <Compile Include="Main\UsbEndpointDirection.cs" />
+    <Compile Include="Main\UsbEndpointList.cs" />
+    <Compile Include="Main\UsbException.cs" />
+    <Compile Include="Main\UsbKernelVersion.cs" />
+    <Compile Include="Main\UsbLockStyle.cs" />
+    <Compile Include="Main\UsbRegDeviceList.cs" />
+    <Compile Include="Main\UsbRegistry.cs" />
+    <Compile Include="Main\UsbRequestRecipient.cs" />
+    <Compile Include="Main\UsbRequestType.cs" />
+    <Compile Include="Main\UsbSetupPacket.cs" />
+    <Compile Include="Main\UsbStandardRequest.cs" />
+    <Compile Include="Main\UsbStatusClodes.cs" />
+    <Compile Include="Main\UsbStream.cs" />
+    <Compile Include="Main\UsbSymbolicName.cs" />
+    <Compile Include="Main\UsbTransfer.cs" />
+    <Compile Include="Main\WriteEndpointID.cs" />
+    <Compile Include="MonoLibUsb\CallbackDelegates.cs" />
+    <Compile Include="MonoLibUsb\MonoLibUsbApi.cs" />
+    <Compile Include="MonoLibUsb\MonoLibUsbApiHelpers.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbCapability.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbDevice.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbDeviceHandle.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbEndpointReader.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbEndpointWriter.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbError.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbEventHandler.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbSessionHandle.cs" />
+    <Compile Include="MonoLibUsb\MonoUsbVersion.cs" />
+    <Compile Include="MonoLibUsb\UnixNativeTimeval.cs" />
+    <Compile Include="MonoLibUsb\Descriptors\MonoUsbAltInterfaceDescriptor.cs" />
+    <Compile Include="MonoLibUsb\Descriptors\MonoUsbConfigDescriptor.cs" />
+    <Compile Include="MonoLibUsb\Descriptors\MonoUsbDeviceDescriptor.cs" />
+    <Compile Include="MonoLibUsb\Descriptors\MonoUsbEndpointDescriptor.cs" />
+    <Compile Include="MonoLibUsb\Descriptors\MonoUsbInterface.cs" />
+    <Compile Include="MonoLibUsb\Profile\AddRemoveEventArgs.cs" />
+    <Compile Include="MonoLibUsb\Profile\AddRemoveType.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbConfigHandle.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbProfile.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbProfileHandle.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbProfileHandleEnumerator.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbProfileList.cs" />
+    <Compile Include="MonoLibUsb\Profile\MonoUsbProfileListHandle.cs" />
+    <Compile Include="MonoLibUsb\Profile\PollfdItem.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbControlSetup.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbControlSetupHandle.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbIsoPacket.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbTansferStatus.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbTransfer.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbTransferContext.cs" />
+    <Compile Include="MonoLibUsb\Transfer\MonoUsbTransferFlags.cs" />
+    <Compile Include="MonoLibUsb\Transfer\Internal\libusb_control_setup.cs" />
+    <Compile Include="MonoLibUsb\Transfer\Internal\libusb_iso_packet_descriptor.cs" />
+    <Compile Include="MonoLibUsb\Transfer\Internal\libusb_transfer.cs" />
+    <Compile Include="UsbDevice.Common.cs" />
+    <Compile Include="UsbDevice.cs" />
+    <Compile Include="UsbDevice.Error.cs" />
+    <Compile Include="UsbDevice.OS.Specific.cs" />
+    <Compile Include="UsbEndpointReader.cs" />
+    <Compile Include="UsbEndpointWriter.cs" />
+    <Compile Include="UsbGlobals.cs" />
+    <Compile Include="WinUsb\DeviceInformationTypes.cs" />
+    <Compile Include="WinUsb\DeviceSpeedTypes.cs" />
+    <Compile Include="WinUsb\PipeInformation.cs" />
+    <Compile Include="WinUsb\PipePolicies.cs" />
+    <Compile Include="WinUsb\PipePolicyType.cs" />
+    <Compile Include="WinUsb\PowerPolicies.cs" />
+    <Compile Include="WinUsb\PowerPolicyType.cs" />
+    <Compile Include="WinUsb\WinUsbDevice.cs" />
+    <Compile Include="WinUsb\WinUsbRegistry.cs" />
+    <Compile Include="WinUsb\Internal\SafeWinUsbInterfaceHandle.cs" />
+    <Compile Include="WinUsb\Internal\WinUsbAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibUsb.Common\LibUsb.Common.csproj">
+      <Project>{61DD0D57-4BDD-4873-BC0D-9822F2D0170D}</Project>
+      <Name>LibUsb.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

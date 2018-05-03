@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X11", "X11\X11.csproj", "{C59E6863-5C14-4E32-B170-90C838785485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X11Wrapper", "X11Wrapper\X11Wrapper.csproj", "{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FFDCE9C-1A4F-4E75-B974-7E3C09E95202}.Release|x86.Build.0 = Release|Any CPU
+		{C59E6863-5C14-4E32-B170-90C838785485}.Debug|x86.ActiveCfg = Debug|x86
+		{C59E6863-5C14-4E32-B170-90C838785485}.Debug|x86.Build.0 = Debug|x86
+		{C59E6863-5C14-4E32-B170-90C838785485}.Release|x86.ActiveCfg = Release|x86
+		{C59E6863-5C14-4E32-B170-90C838785485}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = X11\X11.csproj
+	EndGlobalSection
+EndGlobal

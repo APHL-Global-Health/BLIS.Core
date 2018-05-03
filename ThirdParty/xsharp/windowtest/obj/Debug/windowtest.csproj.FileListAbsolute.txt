@@ -1,0 +1,8 @@
+/home/fredrick/Projects/xsharp/windowtest/obj/Debug/windowtest.csprojResolveAssemblyReference.cache
+/home/fredrick/Projects/xsharp/windowtest/obj/Debug/windowtest.csproj.CoreCompileInputs.cache
+/home/fredrick/Projects/xsharp/windowtest/bin/Debug/windowtest.exe
+/home/fredrick/Projects/xsharp/windowtest/bin/Debug/windowtest.pdb
+/home/fredrick/Projects/xsharp/windowtest/bin/Debug/xsharp.dll
+/home/fredrick/Projects/xsharp/windowtest/bin/Debug/xsharp.pdb
+/home/fredrick/Projects/xsharp/windowtest/obj/Debug/windowtest.exe
+/home/fredrick/Projects/xsharp/windowtest/obj/Debug/windowtest.pdb

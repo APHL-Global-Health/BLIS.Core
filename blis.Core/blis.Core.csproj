@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EA1384A-9DD7-4F6E-9A44-1A28280493F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>blis.Core</RootNamespace>
+    <AssemblyName>blis.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GSMCommServer">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommShared">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommShared.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommunication">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\GSMCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="LibUsbDotNet">
+      <HintPath>..\ThirdParty\LibUsbDotNet\Binaries\LibUsbDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PDUConverter">
+      <HintPath>..\packages\GSMComm.1.21.1\lib\PDUConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\packages\SQLLite\Windows\System.Data.SQLite.Core.1.0.105.1\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Browser\CefBrowserConfig.cs" />
+    <Compile Include="Browser\EventParams\AddressChangedEventArgs.cs" />
+    <Compile Include="Browser\EventParams\BeforePopupEventArgs.cs" />
+    <Compile Include="Browser\EventParams\ConsoleMessageEventArgs.cs" />
+    <Compile Include="Browser\EventParams\LoadEndEventArgs.cs" />
+    <Compile Include="Browser\EventParams\LoadErrorEventArgs.cs" />
+    <Compile Include="Browser\EventParams\LoadingStateChangeEventArgs.cs" />
+    <Compile Include="Browser\EventParams\LoadStartEventArgs.cs" />
+    <Compile Include="Browser\EventParams\PluginCrashedEventArgs.cs" />
+    <Compile Include="Browser\EventParams\RenderProcessTerminatedEventArgs.cs" />
+    <Compile Include="Browser\EventParams\StatusMessageEventArgs.cs" />
+    <Compile Include="Browser\EventParams\TitleChangedEventArgs.cs" />
+    <Compile Include="Browser\EventParams\TooltipEventArgs.cs" />
+    <Compile Include="Browser\Handlers\CefGlueContextMenuHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueHttpSchemeHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueHttpSchemeHandlerFactory.cs" />
+    <Compile Include="Browser\Handlers\CefGlueMessageRouterHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueResourceSchemeHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueResourceSchemeHandlerFactory.cs" />
+    <Compile Include="Browser\RestfulService\RequestTaskRunner.cs" />
+    <Compile Include="Events\ConnectionStatusChangedEventArgs.cs" />
+    <Compile Include="Events\iEventArgs.cs" />
+    <Compile Include="Events\ReceivedMessageEventArgs.cs" />
+    <Compile Include="Excel\Actions\AddSheet.cs" />
+    <Compile Include="Excel\Actions\iAction.cs" />
+    <Compile Include="Excel\Actions\Output.cs" />
+    <Compile Include="Excel\Actions\Write.cs" />
+    <Compile Include="Excel\iExcel.cs" />
+    <Compile Include="Excel\Properties.cs" />
+    <Compile Include="Extensions\Extension.cs" />
+    <Compile Include="GsmComm\Extensions\ussdEx.cs" />
+    <Compile Include="GsmComm\GsmCommunication\GsmCommMainEx.cs" />
+    <Compile Include="GsmComm\GsmCommunication\GsmPhoneEx.cs" />
+    <Compile Include="GsmComm\GsmCommunication\MessageIndicationHandlersEx.cs" />
+    <Compile Include="GsmComm\GsmCommunication\SerialPortFixer.cs" />
+    <Compile Include="GsmComm\PduConverter\PduPartsEx.cs" />
+    <Compile Include="GsmComm\PduConverter\SmsStatusReportPduEx.cs" />
+    <Compile Include="GsmComm\PduConverter\SmsTimestampEx.cs" />
+    <Compile Include="GsmComm\SafeSerialPort.cs" />
+    <Compile Include="Handlers\CustomResourceHandler.cs" />
+    <Compile Include="Handlers\DatabaseHandler.cs" />
+    <Compile Include="Handlers\ExcelHandler.cs" />
+    <Compile Include="Handlers\MySQL.cs" />
+    <Compile Include="Handlers\PdfHandler.cs" />
+    <Compile Include="Handlers\PingHandler.cs" />
+    <Compile Include="Handlers\ServerHandler.cs" />
+    <Compile Include="Handlers\SQL.cs" />
+    <Compile Include="Handlers\SQLite.cs" />
+    <Compile Include="Handlers\ZipHandler.cs" />
+    <Compile Include="Helpers\CallbackTask.cs" />
+    <Compile Include="Helpers\CefConfiguration.cs" />
+    <Compile Include="Helpers\CefConfigurationExtension.cs" />
+    <Compile Include="Helpers\CefHandlerFakeTypes.cs" />
+    <Compile Include="Helpers\CefHandlerKey.cs" />
+    <Compile Include="Helpers\CefPdfClient.cs" />
+    <Compile Include="Helpers\CefSettingKeys.cs" />
+    <Compile Include="Helpers\DeviceClasses.cs" />
+    <Compile Include="Helpers\DynamicJsonConverter.cs" />
+    <Compile Include="Helpers\ErrorHelper.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\JsHandler.cs" />
+    <Compile Include="Helpers\MesssageRouter.cs" />
+    <Compile Include="Helpers\MimeMapper.cs" />
+    <Compile Include="Helpers\PostHelper.cs" />
+    <Compile Include="Helpers\ReturnType.cs" />
+    <Compile Include="Helpers\SchemeHandler.cs" />
+    <Compile Include="Helpers\SmsHelper.cs" />
+    <Compile Include="Helpers\SmsResponse.cs" />
+    <Compile Include="Helpers\StatusHelper.cs" />
+    <Compile Include="Helpers\SyncFile.cs" />
+    <Compile Include="Helpers\ValueConvertersExtension.cs" />
+    <Compile Include="Host\iHost.cs" />
+    <Compile Include="Host\WebBrowserBase.cs" />
+    <Compile Include="Host\WebBrowserBaseExtension.cs" />
+    <Compile Include="Host\Win32Message.cs" />
+    <Compile Include="Host\WinapiConstants.cs" />
+    <Compile Include="iContainer.cs" />
+    <Compile Include="iLogger.cs" />
+    <Compile Include="Infrastructure\IoC.cs" />
+    <Compile Include="Infrastructure\Log.cs" />
+    <Compile Include="Infrastructure\LogSeverity.cs" />
+    <Compile Include="Infrastructure\ServiceRouteProvider.cs" />
+    <Compile Include="Infrastructure\SimpleContainer.cs" />
+    <Compile Include="Infrastructure\SimpleLogger.cs" />
+    <Compile Include="Infrastructure\UrlScheme.cs" />
+    <Compile Include="Infrastructure\UrlSchemeProvider.cs" />
+    <Compile Include="JsonMapper\IJsonWrapper.cs" />
+    <Compile Include="JsonMapper\JsonData.cs" />
+    <Compile Include="JsonMapper\JsonException.cs" />
+    <Compile Include="JsonMapper\JsonMapper.cs" />
+    <Compile Include="JsonMapper\JsonMockWrapper.cs" />
+    <Compile Include="JsonMapper\JsonReader.cs" />
+    <Compile Include="JsonMapper\JsonWriter.cs" />
+    <Compile Include="JsonMapper\Lexer.cs" />
+    <Compile Include="JsonMapper\ParserToken.cs" />
+    <Compile Include="PDF\Actions\AddImage.cs" />
+    <Compile Include="PDF\Actions\AddPage.cs" />
+    <Compile Include="PDF\Actions\AddWatermark.cs" />
+    <Compile Include="PDF\Actions\Circle.cs" />
+    <Compile Include="PDF\Actions\Ellipse.cs" />
+    <Compile Include="PDF\Actions\iAction.cs" />
+    <Compile Include="PDF\Actions\Line.cs" />
+    <Compile Include="PDF\Actions\Output.cs" />
+    <Compile Include="PDF\Actions\Rect.cs" />
+    <Compile Include="PDF\Actions\SetDrawColor.cs" />
+    <Compile Include="PDF\Actions\SetFontSize.cs" />
+    <Compile Include="PDF\Actions\SetFontType.cs" />
+    <Compile Include="PDF\Actions\SetLineWidth.cs" />
+    <Compile Include="PDF\Actions\SplitTextToSize.cs" />
+    <Compile Include="PDF\Actions\Text.cs" />
+    <Compile Include="PDF\Actions\TextWithWrap.cs" />
+    <Compile Include="PDF\Internal.cs" />
+    <Compile Include="PDF\iPDF.cs" />
+    <Compile Include="PDF\PageSize.cs" />
+    <Compile Include="PDF\Properties.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Configurations\Argument.cs" />
+    <Compile Include="Configurations\Automate.cs" />
+    <Compile Include="Configurations\Configuration.cs" />
+    <Compile Include="Configurations\Dependency.cs" />
+    <Compile Include="Configurations\Format.cs" />
+    <Compile Include="Configurations\Parameter.cs" />
+    <Compile Include="Configurations\Profile.cs" />
+    <Compile Include="RestfulService\ControllerPropertyAttribute.cs" />
+    <Compile Include="RestfulService\Controller.cs" />
+    <Compile Include="RestfulService\Request.cs" />
+    <Compile Include="RestfulService\Response.cs" />
+    <Compile Include="RestfulService\ExtensionMethods.cs" />
+    <Compile Include="RestfulService\iServiceProvider.cs" />
+    <Compile Include="RestfulService\Method.cs" />
+    <Compile Include="RestfulService\ReadyState.cs" />
+    <Compile Include="RestfulService\RegisterServiceAssembliesExtension.cs" />
+    <Compile Include="RestfulService\Route.cs" />
+    <Compile Include="RestfulService\RouteScanner.cs" />
+    <Compile Include="USB\DeviceInfo.cs" />
+    <Compile Include="Zip\Actions\AddFile.cs" />
+    <Compile Include="Zip\Actions\iAction.cs" />
+    <Compile Include="Zip\Actions\Output.cs" />
+    <Compile Include="Zip\iZip.cs" />
+    <Compile Include="Zip\Properties.cs" />
+    <Compile Include="Browser\Handlers\CefGlueBrowserProcessHandler.cs" />
+    <Compile Include="Browser\NativeMethods.cs" />
+    <Compile Include="Extensions\V8\V8Object.cs" />
+    <Compile Include="Extensions\V8\CefGlue\CefAssembly.cs" />
+    <Compile Include="Extensions\V8\CefGlue\ChromeDevToolsProtocol.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnClientConnectedEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnClientDisconnectedEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnHttpRequestEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnServerCreatedEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnServerDestroyedEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnWebSocketConnectedEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnWebSocketMessageEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\OnWebSocketRequestEventArgs.cs" />
+    <Compile Include="Extensions\V8\CefGlue\Events\ServerEventArgs.cs" />
+    <Compile Include="Extensions\V8\Helpers\CommandHelper.cs" />
+    <Compile Include="Extensions\V8\Helpers\ConnectionHelper.cs" />
+    <Compile Include="Extensions\V8\Helpers\DataReaderHelper.cs" />
+    <Compile Include="Extensions\V8\Helpers\DatabaseHelper.cs" />
+    <Compile Include="Helpers\DevToolsSocket.cs" />
+    <Compile Include="Helpers\MiscHelpers.cs" />
+    <Compile Include="Helpers\RequestHelper.cs" />
+    <Compile Include="Helpers\SpecialDispIDs.cs" />
+    <Compile Include="Helpers\Undefined.cs" />
+    <Compile Include="Helpers\UniqueNameManager.cs" />
+    <Compile Include="Helpers\VoidResult.cs" />
+    <Compile Include="Helpers\WebCallback.cs" />
+    <Compile Include="MySqlBackup\MySqlBackup.cs" />
+    <Compile Include="MySqlBackup\EventArgs\ExportCompleteArgs.cs" />
+    <Compile Include="MySqlBackup\EventArgs\ExportProgressArgs.cs" />
+    <Compile Include="MySqlBackup\EventArgs\GetTotalRowsArgs.cs" />
+    <Compile Include="MySqlBackup\EventArgs\ImportCompleteArgs.cs" />
+    <Compile Include="MySqlBackup\EventArgs\ImportProgressArgs.cs" />
+    <Compile Include="MySqlBackup\InfoObjects\ExportInformations.cs" />
+    <Compile Include="MySqlBackup\InfoObjects\ImportInformations.cs" />
+    <Compile Include="MySqlBackup\InfoObjects\enumRowsDataExportMode.cs" />
+    <Compile Include="MySqlBackup\Methods\CryptoExpress.cs" />
+    <Compile Include="MySqlBackup\Methods\QueryExpress.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlColumn.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlColumnList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlDatabase.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlEvent.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlEventList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlFunction.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlFunctionList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlProcedure.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlProcedureList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlServer.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlTable.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlTableList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlTrigger.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlTriggerList.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlView.cs" />
+    <Compile Include="MySqlBackup\MySqlObjects\MySqlViewList.cs" />
+    <Compile Include="Browser\Handlers\CefGlueDialogHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueDownloadHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueDragHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueFindHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueFocusHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueGeolocationHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueJSDialogHandler.cs" />
+    <Compile Include="Browser\Handlers\CefGlueKeyboardHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CefGlue\CefGlue.csproj">
+      <Project>{703ff300-34b9-48d4-a5d6-e741f48d5f95}</Project>
+      <Name>CefGlue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\dotnetzip\Zip\Zip DLL.csproj">
+      <Project>{d3b0ad67-44d8-4b3d-bed9-ce1fd6de2c5a}</Project>
+      <Name>Zip DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\mysql-connector-net-6.9.9-src\Source\MySql.Data\MySql.Data.csproj">
+      <Project>{e9df5ed1-4cbd-4226-b931-9a51610ac14d}</Project>
+      <Name>MySql.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\PdfSharp\PdfSharp.Charting\PdfSharp.Charting.csproj">
+      <Project>{6f98a822-41b0-4c7a-85a6-e95c1d3e88ef}</Project>
+      <Name>PdfSharp.Charting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\PdfSharp\PdfSharp\PdfSharp.csproj">
+      <Project>{5a6055bc-bf86-4fdd-9f62-0109db7a303b}</Project>
+      <Name>PdfSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\SerialPortStream-2.x\code\SerialPortStream-net45.csproj">
+      <Project>{cea01148-cd2e-4f29-b455-b557b9b4c6d4}</Project>
+      <Name>SerialPortStream-net45</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\Simplexcel\Simplexcel.csproj">
+      <Project>{34439f5a-d35f-4e70-ab60-a99bc6c12e59}</Project>
+      <Name>Simplexcel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\v8dotnet\V8.Net-SharedTypes\V8.Net-SharedTypes.MonoDevelop.csproj">
+      <Project>{2155327d-386a-4f80-81fb-918a4442c834}</Project>
+      <Name>V8.Net-SharedTypes.MonoDevelop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\v8dotnet\V8.Net\V8.Net.MonoDevelop.csproj">
+      <Project>{c898e990-54eb-40ac-9408-e416a838ec77}</Project>
+      <Name>V8.Net.MonoDevelop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThirdParty\websocket-sharp\websocket-sharp\websocket-sharp.csproj">
+      <Project>{B357BAC7-529E-4D81-A0D2-71041B19C8DE}</Project>
+      <Name>websocket-sharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

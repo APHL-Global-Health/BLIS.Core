@@ -1,0 +1,112 @@
+
+________ running 'git -c core.deltaBaseCacheLimit=512m clone --no-checkout --progress https://chromium.googlesource.com/v8/v8.git --depth=1 E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\v8dotnet\Source\V8.NET-Proxy\V8\_gclient_v8_xzk0wd' in 'E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\v8dotnet\Source\V8.NET-Proxy\V8'
+Cloning into 'E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\v8dotnet\Source\V8.NET-Proxy\V8\_gclient_v8_xzk0wd'...
+* Couldn't find host chromium.googlesource.com in the _netrc file; using defaults
+* timeout on name lookup is not supported
+*   Trying 74.125.206.82...
+* TCP_NODELAY set
+* Connected to chromium.googlesource.com (74.125.206.82) port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=Mountain View; O=Google Inc; CN=*.googlecode.com
+*  start date: Feb 20 14:53:55 2018 GMT
+*  expire date: May 15 14:09:00 2018 GMT
+*  subjectAltName: host "chromium.googlesource.com" matched cert's "*.googlesource.com"
+*  issuer: C=US; O=Google Trust Services; CN=Google Internet Authority G3
+*  SSL certificate verify ok.
+> GET /v8/v8.git/info/refs?service=git-upload-pack HTTP/1.1
+Host: chromium.googlesource.com
+User-Agent: git/2.14.1.windows.1
+Accept: */*
+Accept-Encoding: gzip
+Pragma: no-cache
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, max-age=0, must-revalidate
+< Content-Encoding: gzip
+< Content-Type: application/x-git-upload-pack-advertisement
+< Expires: Fri, 01 Jan 1980 00:00:00 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Sat, 10 Mar 2018 04:43:45 GMT
+< Alt-Svc: hq=":443"; ma=2592000; quic=51303433; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="43,42,41,39,35"
+< Transfer-Encoding: chunked
+< 
+* Connection #0 to host chromium.googlesource.com left intact
+remote: Counting objects: 1           remote: Counting objects: 9352, done        
+remote: Finding sources:   1% (94/9352)           remote: Finding sources:   2% (188/9352)           remote: Finding sources:   3% (281/9352)           remote: Finding sources:   4% (375/9352)           remote: Finding sources:   5% (468/9352)           remote: Finding sources:   6% (562/9352)           remote: Finding sources:   7% (655/9352)           remote: Finding sources:   8% (749/9352)           remote: Finding sources:   9% (842/9352)           remote: Finding sources:  10% (936/9352)           remote: Finding sources:  11% (1029/9352)           remote: Finding sources:  12% (1123/9352)           remote: Finding sources:  13% (1216/9352)           remote: Finding sources:  14% (1310/9352)           remote: Finding sources:  15% (1403/9352)           remote: Finding sources:  16% (1497/9352)           remote: Finding sources:  17% (1590/9352)           remote: Finding sources:  18% (1684/9352)           remote: Finding sources:  19% (1777/9352)           remote: Finding sources:  20% (1871/9352)           remote: Finding sources:  21% (1964/9352)           remote: Finding sources:  22% (2058/9352)           remote: Finding sources:  23% (2151/9352)           remote: Finding sources:  24% (2245/9352)           remote: Finding sources:  25% (2338/9352)           remote: Finding sources:  26% (2432/9352)           remote: Finding sources:  27% (2526/9352)           remote: Finding sources:  28% (2619/9352)           remote: Finding sources:  29% (2713/9352)           remote: Finding sources:  30% (2806/9352)           remote: Finding sources:  31% (2900/9352)           remote: Finding sources:  32% (2993/9352)           remote: Finding sources:  33% (3087/9352)           remote: Finding sources:  34% (3180/9352)           remote: Finding sources:  35% (3274/9352)           remote: Finding sources:  36% (3367/9352)           remote: Finding sources:  37% (3461/9352)           remote: Finding sources:  38% (3554/9352)           remote: Finding sources:  39% (3648/9352)           remote: Finding sources:  40% (3741/9352)           remote: Finding sources:  41% (3835/9352)           remote: Finding sources:  42% (3928/9352)           remote: Finding sources:  43% (4022/9352)           remote: Finding sources:  44% (4115/9352)           remote: Finding sources:  45% (4209/9352)           remote: Finding sources:  46% (4302/9352)           remote: Finding sources:  47% (4396/9352)           remote: Finding sources:  48% (4489/9352)           remote: Finding sources:  49% (4583/9352)           remote: Finding sources:  50% (4676/9352)           remote: Finding sources:  51% (4770/9352)           remote: Finding sources:  52% (4864/9352)           remote: Finding sources:  53% (4957/9352)           remote: Finding sources:  54% (5051/9352)           remote: Finding sources:  55% (5144/9352)           remote: Finding sources:  56% (5238/9352)           remote: Finding sources:  57% (5331/9352)           remote: Finding sources:  58% (5425/9352)           remote: Finding sources:  59% (5518/9352)           remote: Finding sources:  60% (5612/9352)           remote: Finding sources:  61% (5705/9352)           remote: Finding sources:  62% (5799/9352)           remote: Finding sources:  63% (5892/9352)           remote: Finding sources:  64% (5986/9352)           remote: Finding sources:  65% (6079/9352)           remote: Finding sources:  66% (6173/9352)           remote: Finding sources:  67% (6266/9352)           remote: Finding sources:  68% (6360/9352)           remote: Finding sources:  69% (6453/9352)           remote: Finding sources:  70% (6547/9352)           remote: Finding sources:  71% (6640/9352)           remote: Finding sources:  72% (6734/9352)           remote: Finding sources:  73% (6827/9352)           remote: Finding sources:  74% (6921/9352)           remote: Finding sources:  75% (7014/9352)           remote: Finding sources:  76% (7108/9352)           remote: Finding sources:  77% (7202/9352)           remote: Finding sources:  78% (7295/9352)           remote: Finding sources:  79% (7389/9352)           remote: Finding sources:  80% (7482/9352)           remote: Finding sources:  81% (7576/9352)           remote: Finding sources:  82% (7669/9352)           remote: Finding sources:  83% (7763/9352)           remote: Finding sources:  84% (7856/9352)           remote: Finding sources:  85% (7950/9352)           remote: Finding sources:  86% (8043/9352)           remote: Finding sources:  87% (8137/9352)           remote: Finding sources:  88% (8230/9352)           remote: Finding sources:  89% (8324/9352)           remote: Finding sources:  90% (8417/9352)           remote: Finding sources:  91% (8511/9352)           remote: Finding sources:  92% (8604/9352)           remote: Finding sources:  93% (8698/9352)           remote: Finding sources:  94% (8791/9352)           remote: Finding sources:  95% (8885/9352)           remote: Finding sources:  96% (8978/9352)           remote: Finding sources:  97% (9072/9352)           remote: Finding sources:  98% (9165/9352)           remote: Finding sources:  99% (9259/9352)           remote: Finding sources: 100% (9352/9352)           remote: Finding sources: 100% (9352/9352)        
+Receiving objects:   0% (1/9352)   Receiving objects:   1% (94/9352)   Receiving objects:   2% (188/9352)   Receiving objects:   3% (281/9352), 195.95 KiB | 358.00 KiB/s   Receiving objects:   4% (375/9352), 195.95 KiB | 358.00 KiB/s   Receiving objects:   4% (376/9352), 387.89 KiB | 352.00 KiB/s   Receiving objects:   4% (463/9352), 643.81 KiB | 370.00 KiB/s   Receiving objects:   5% (468/9352), 643.81 KiB | 370.00 KiB/s   Receiving objects:   5% (530/9352), 1.13 MiB | 408.00 KiB/s   Receiving objects:   6% (562/9352), 1.13 MiB | 408.00 KiB/s   Receiving objects:   7% (655/9352), 1.39 MiB | 428.00 KiB/s   Receiving objects:   7% (686/9352), 1.69 MiB | 440.00 KiB/s   Receiving objects:   8% (749/9352), 1.69 MiB | 440.00 KiB/s   Receiving objects:   8% (822/9352), 2.00 MiB | 461.00 KiB/s   Receiving objects:   9% (842/9352), 2.32 MiB | 476.00 KiB/s   Receiving objects:  10% (936/9352), 2.69 MiB | 507.00 KiB/s   Receiving objects:  10% (974/9352), 2.69 MiB | 507.00 KiB/s   Receiving objects:  11% (1029/9352), 3.00 MiB | 533.00 KiB/s   Receiving objects:  11% (1103/9352), 3.38 MiB | 565.00 KiB/s   Receiving objects:  12% (1123/9352), 3.38 MiB | 565.00 KiB/s   Receiving objects:  13% (1216/9352), 3.75 MiB | 592.00 KiB/s   Receiving objects:  13% (1261/9352), 4.13 MiB | 617.00 KiB/s   Receiving objects:  14% (1310/9352), 4.13 MiB | 617.00 KiB/s   Receiving objects:  15% (1403/9352), 4.50 MiB | 633.00 KiB/s   Receiving objects:  15% (1475/9352), 4.88 MiB | 652.00 KiB/s   Receiving objects:  16% (1497/9352), 4.88 MiB | 652.00 KiB/s   Receiving objects:  16% (1539/9352), 5.44 MiB | 642.00 KiB/s   Receiving objects:  16% (1578/9352), 5.50 MiB | 556.00 KiB/s   Receiving objects:  17% (1590/9352), 5.50 MiB | 556.00 KiB/s   * Couldn't find host chromium.googlesource.com in the _netrc file; using defaults
+* Found bundle for host chromium.googlesource.com: 0x5838bc0 [can pipeline]
+* Re-using existing connection! (#0) with host chromium.googlesource.com
+* Connected to chromium.googlesource.com (74.125.206.82) port 443 (#0)
+> POST /v8/v8.git/git-upload-pack HTTP/1.1
+Host: chromium.googlesource.com
+User-Agent: git/2.14.1.windows.1
+Accept-Encoding: gzip
+Content-Type: application/x-git-upload-pack-request
+Accept: application/x-git-upload-pack-result
+Content-Length: 166
+
+* upload completely sent off: 166 out of 166 bytes
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, max-age=0, must-revalidate
+< Content-Length: 56
+< Content-Type: application/x-git-upload-pack-result
+< Expires: Fri, 01 Jan 1980 00:00:00 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Sat, 10 Mar 2018 04:44:04 GMT
+< Alt-Svc: hq=":443"; ma=2592000; quic=51303433; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="43,42,41,39,35"
+< 
+* Connection #0 to host chromium.googlesource.com left intact
+* Couldn't find host chromium.googlesource.com in the _netrc file; using defaults
+* Found bundle for host chromium.googlesource.com: 0x5838bc0 [can pipeline]
+* Re-using existing connection! (#0) with host chromium.googlesource.com
+* Connected to chromium.googlesource.com (74.125.206.82) port 443 (#0)
+> POST /v8/v8.git/git-upload-pack HTTP/1.1
+Host: chromium.googlesource.com
+User-Agent: git/2.14.1.windows.1
+Accept-Encoding: gzip
+Content-Type: application/x-git-upload-pack-request
+Accept: application/x-git-upload-pack-result
+Content-Length: 175
+
+* upload completely sent off: 175 out of 175 bytes
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, max-age=0, must-revalidate
+< Content-Type: application/x-git-upload-pack-result
+< Expires: Fri, 01 Jan 1980 00:00:00 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Sat, 10 Mar 2018 04:44:05 GMT
+< Transfer-Encoding: chunked
+< Alt-Svc: hq=":443"; ma=2592000; quic=51303433; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="43,42,41,39,35"
+< 
+WARNING: subprocess '"git" "-c" "core.deltaBaseCacheLimit=512m" "clone" "--no-checkout" "--progress" "https://chromium.googlesource.com/v8/v8.git" "--depth=1" "E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\v8dotnet\Source\V8.NET-Proxy\V8\_gclient_v8_xzk0wd"' in E:\Projects\Repositories\Github\ePlug-Mono\ThirdParty\v8dotnet\Source\V8.NET-Proxy\V8 failed; will retry after a short nap...
+Running: 'E:\ChromiumEmbeddedFramework\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe' 'E:\ChromiumEmbeddedFramework\code\depot_tools\gclient.py' root
+Running: 'E:\ChromiumEmbeddedFramework\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe' 'E:\ChromiumEmbeddedFramework\code\depot_tools\gclient.py' config --spec 'solutions = [
+  {
+    "url": "https://chromium.googlesource.com/v8/v8.git",
+    "managed": False,
+    "name": "v8",
+    "deps_file": "DEPS",
+    "custom_deps": {},
+  },
+]
+'
+Running: 'E:\ChromiumEmbeddedFramework\code\depot_tools\win_tools-2_7_6_bin\python\bin\python.exe' 'E:\ChromiumEmbeddedFramework\code\depot_tools\gclient.py' sync --no-history --with_branch_heads
