@@ -4,9 +4,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="blis.Core\Helpers\CefConfigurationExtension.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets">
     <Files>
       <File FileName="blis.Core\Helpers\CefConfigurationExtension.cs" Line="63" Column="39" />
+      <File FileName="CefGlue\Interop\version.g.cs" Line="12" Column="64" />
+      <File FileName="C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" Line="4381" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
